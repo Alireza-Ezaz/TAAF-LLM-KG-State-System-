@@ -77,9 +77,9 @@ for rec in records:
             'accumulated_times': [],
             'time_per_occurrence': []
         }
-    edge_metrics[edge_key]['sum_accumulated_times_ns'] += acc_time
-    edge_metrics[edge_key]['edge_occurrence_count'] += 1
     edge_metrics[edge_key]['accumulated_times'].append(acc_time)
+
+    edge_metrics[edge_key]['edge_occurrence_count'] += 1
 
     # For each thread, store the maximum (latest) accumulated time and the cpu_id
     if thread not in thread_metrics or acc_time > thread_metrics[thread]['accumulated_time']:
@@ -119,7 +119,7 @@ for (thread, cpu), em in edge_metrics.items():
             em['time_per_occurrence'].append(time - prev_time)
         prev_time = time
 
-# Calculate the new `Average Accumulated Edge Time (ns)`.
+# Calculate the new Average Accumulated Edge Time (ns).
 for (thread, cpu), em in edge_metrics.items():
     # Average of accumulated times (sum of accumulated times divided by the number of occurrences)
     if em['edge_occurrence_count'] > 0:
@@ -144,7 +144,7 @@ for cpu, metrics in cpu_metrics.items():
                 total_edge_occurrences=metrics['total_edge_occurrences'],
                 max_avg_edge_time_ns=metrics['max_avg_edge_time_ns'])
 
-# Add Thread nodes with only `entity` and `thread_id`.
+# Add Thread nodes with only entity and thread_id.
 for thread in thread_metrics:
     node_id = f"T_{thread}"
     KG.add_node(node_id,
@@ -156,6 +156,9 @@ for (thread, cpu), em in edge_metrics.items():
     source = f"T_{thread}"
     target = f"CPU_{cpu}"
 
+    # Update the edge metrics to use the last value from accumulated_times for sum_accumulated_times_ns
+    sum_accumulated_times_ns = em['accumulated_times'][-1] if em['accumulated_times'] else 0
+
     # Filter out 'N/A' values from time_per_occurrence before calculating the average
     valid_time_per_occurrence = [time for time in em['time_per_occurrence'] if time != "N/A"]
 
@@ -164,7 +167,7 @@ for (thread, cpu), em in edge_metrics.items():
 
     KG.add_edge(source, target,
                 relation="used_cpu",
-                sum_accumulated_times_ns=em['sum_accumulated_times_ns'],
+                sum_accumulated_times_ns=sum_accumulated_times_ns,
                 edge_occurrence_count=em['edge_occurrence_count'],
                 avg_time_per_occurrence_ns=avg_time_per_occurrence,  # average of time per occurrence
                 avg_accumulated_edge_time_ns=em['avg_accumulated_edge_time_ns'],  # new feature

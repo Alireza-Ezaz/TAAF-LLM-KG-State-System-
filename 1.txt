@@ -1,0 +1,66 @@
+Here are 15 analytical questions that can be answered using the provided CPU-Thread graph data:
+
+---
+
+### **CPU-Centric Questions**
+1. **Which CPU has the highest total busy time (`busy_time_ns`)?**  
+   *Compare the `busy_time_ns` values across all CPU nodes.*
+
+2. **Which CPU has the highest average busy time per thread (`avg_busy_time_per_thread_ns`)?**  
+   *Use the `avg_busy_time_per_thread_ns` attribute of CPU nodes.*
+
+3. **What is the total number of edge occurrences (`total_edge_occurrences`) for CPU 2?**  
+   *Directly read the `total_edge_occurrences` value of the CPU 2 node.*
+
+4. **Which CPU has the highest maximum average edge time (`max_avg_edge_time_ns`)?**  
+   *Compare the `max_avg_edge_time_ns` values across CPUs.*
+
+5. **How many unique threads (`num_unique_threads`) are running on CPU 3?**  
+   *Check the `num_unique_threads` attribute of the CPU 3 node.*
+
+---
+
+### **Thread-Centric Questions**
+6. **Which thread has the highest peak accumulated time on CPU 0?**  
+   *Find the thread with the largest last value in `accumulated_times` for links targeting CPU 0.*
+
+7. **Which threads are shared across multiple CPUs?**  
+   *Identify threads with `used_cpu` links to more than one CPU.*
+
+8. **What is the peak accumulated time of thread T_0 across all CPUs?**  
+   *Check the last value of `accumulated_times` in all `used_cpu` links for T_0 and pick the maximum.*
+
+9. **Which thread has the highest single occurrence time (`time_per_occurrence`) on CPU 1?**  
+   *Find the maximum numeric value in `time_per_occurrence` arrays for threads linked to CPU 1 (ignore "N/A").*
+
+10. **How many threads have a peak accumulated time >1e9 ns on CPU 2?**  
+    *Filter threads linked to CPU 2 where the last `accumulated_times` value exceeds 1e9 ns.*
+
+---
+
+### **System-Wide Analysis**
+11. **What is the total busy time across all CPUs?**  
+    *Sum the `busy_time_ns` values of all CPU nodes.*
+
+12. **What is the ratio of total edge occurrences to unique threads for CPU 0?**  
+    *Calculate `total_edge_occurrences / num_unique_threads` for CPU 0.*
+
+13. **Which CPU is the most utilized (busy time per unique thread)?**  
+    *Compute `busy_time_ns / num_unique_threads` for each CPU and compare.*
+
+14. **What is the distribution of threads across CPUs?**  
+    *List the `num_unique_threads` for each CPU node.*
+
+15. **What is the average `max_avg_edge_time_ns` across all CPUs?**  
+    *Average the `max_avg_edge_time_ns` values of all CPUs.*
+
+---
+
+### **How to Answer These Questions**  
+Each question can be addressed by:  
+1. Parsing the relevant CPU/Thread nodes and their attributes.  
+2. Filtering/aggregating `links` based on `relation`, `source`, and `target`.  
+3. Using the last value of `accumulated_times` for peak usage analysis.  
+4. Applying arithmetic operations (sum, max, average) on numeric attributes like `busy_time_ns`.
+
+These questions enable deep insights into CPU utilization, thread behavior, and system performance! 🚀

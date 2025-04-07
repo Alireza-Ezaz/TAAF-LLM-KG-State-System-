@@ -10,7 +10,7 @@
             "num_unique_threads": 62,
             "avg_busy_time_per_thread_ns": 933157145.4193548,
             "total_edge_occurrences": 68,
-            "max_avg_edge_time_ns": 14293109280.25,
+            "max_avg_edge_time_ns": 0,
             "id": "CPU_1"
         },
         {
@@ -20,7 +20,7 @@
             "num_unique_threads": 50,
             "avg_busy_time_per_thread_ns": 2679229492.8,
             "total_edge_occurrences": 68,
-            "max_avg_edge_time_ns": 14878011100.555555,
+            "max_avg_edge_time_ns": 0,
             "id": "CPU_2"
         },
         {
@@ -30,7 +30,7 @@
             "num_unique_threads": 70,
             "avg_busy_time_per_thread_ns": 3460596280.6857142,
             "total_edge_occurrences": 100,
-            "max_avg_edge_time_ns": 15134041852.0625,
+            "max_avg_edge_time_ns": 0,
             "id": "CPU_0"
         },
         {
@@ -40,7 +40,7 @@
             "num_unique_threads": 63,
             "avg_busy_time_per_thread_ns": 2125469736.1111112,
             "total_edge_occurrences": 79,
-            "max_avg_edge_time_ns": 14862501112.11111,
+            "max_avg_edge_time_ns": 0,
             "id": "CPU_3"
         },
         {
@@ -780,7 +780,7 @@
             "sum_accumulated_times_ns": 600228811,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 600228811.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 600228811
             ],
@@ -792,10 +792,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 242144669633,
+            "sum_accumulated_times_ns": 15526381889,
             "edge_occurrence_count": 16,
             "avg_time_per_occurrence_ns": 62643440.06666667,
-            "avg_accumulated_edge_time_ns": 15134041852.0625,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 14586730288,
                 14726729809,
@@ -837,10 +837,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 133762510009,
+            "sum_accumulated_times_ns": 14962317412,
             "edge_occurrence_count": 9,
             "avg_time_per_occurrence_ns": 52074972.5,
-            "avg_accumulated_edge_time_ns": 14862501112.11111,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 14545717632,
                 14877711877,
@@ -868,10 +868,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 133902099905,
+            "sum_accumulated_times_ns": 15108798517,
             "edge_occurrence_count": 9,
             "avg_time_per_occurrence_ns": 98984076.875,
-            "avg_accumulated_edge_time_ns": 14878011100.555555,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 14316925902,
                 14904969181,
@@ -902,7 +902,7 @@
             "sum_accumulated_times_ns": 34468172,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 34468172.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 34468172
             ],
@@ -917,7 +917,7 @@
             "sum_accumulated_times_ns": 12974809,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 12974809.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 12974809
             ],
@@ -932,7 +932,7 @@
             "sum_accumulated_times_ns": 18459740,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 18459740.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 18459740
             ],
@@ -947,7 +947,7 @@
             "sum_accumulated_times_ns": 4457969,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 4457969.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 4457969
             ],
@@ -962,7 +962,7 @@
             "sum_accumulated_times_ns": 46882,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 46882.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 46882
             ],
@@ -977,7 +977,7 @@
             "sum_accumulated_times_ns": 90232,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 90232.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 90232
             ],
@@ -992,7 +992,7 @@
             "sum_accumulated_times_ns": 88488,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 88488.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 88488
             ],
@@ -1007,7 +1007,7 @@
             "sum_accumulated_times_ns": 590354,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 590354.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 590354
             ],
@@ -1022,7 +1022,7 @@
             "sum_accumulated_times_ns": 144482,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 144482.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 144482
             ],
@@ -1037,7 +1037,7 @@
             "sum_accumulated_times_ns": 67536,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 67536.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 67536
             ],
@@ -1052,7 +1052,7 @@
             "sum_accumulated_times_ns": 48863,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 48863.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 48863
             ],
@@ -1067,7 +1067,7 @@
             "sum_accumulated_times_ns": 253766,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 253766.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 253766
             ],
@@ -1082,7 +1082,7 @@
             "sum_accumulated_times_ns": 118875,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 118875.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 118875
             ],
@@ -1097,7 +1097,7 @@
             "sum_accumulated_times_ns": 456775,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 456775.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 456775
             ],
@@ -1112,7 +1112,7 @@
             "sum_accumulated_times_ns": 266934,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 266934.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 266934
             ],
@@ -1127,7 +1127,7 @@
             "sum_accumulated_times_ns": 46419,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 46419.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 46419
             ],
@@ -1142,7 +1142,7 @@
             "sum_accumulated_times_ns": 520813,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 520813.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 520813
             ],
@@ -1157,7 +1157,7 @@
             "sum_accumulated_times_ns": 176098,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 176098.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 176098
             ],
@@ -1172,7 +1172,7 @@
             "sum_accumulated_times_ns": 23622189,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 23622189.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 23622189
             ],
@@ -1187,7 +1187,7 @@
             "sum_accumulated_times_ns": 390566,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 390566.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 390566
             ],
@@ -1202,7 +1202,7 @@
             "sum_accumulated_times_ns": 79031,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 79031.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 79031
             ],
@@ -1217,7 +1217,7 @@
             "sum_accumulated_times_ns": 376275,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 376275.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 376275
             ],
@@ -1232,7 +1232,7 @@
             "sum_accumulated_times_ns": 107474,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 107474.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 107474
             ],
@@ -1247,7 +1247,7 @@
             "sum_accumulated_times_ns": 35811,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 35811.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 35811
             ],
@@ -1262,7 +1262,7 @@
             "sum_accumulated_times_ns": 348498,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 348498.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 348498
             ],
@@ -1277,7 +1277,7 @@
             "sum_accumulated_times_ns": 31052,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 31052.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 31052
             ],
@@ -1292,7 +1292,7 @@
             "sum_accumulated_times_ns": 434990,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 434990.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 434990
             ],
@@ -1307,7 +1307,7 @@
             "sum_accumulated_times_ns": 183827,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 183827.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 183827
             ],
@@ -1322,7 +1322,7 @@
             "sum_accumulated_times_ns": 28659,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 28659.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 28659
             ],
@@ -1337,7 +1337,7 @@
             "sum_accumulated_times_ns": 348981,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 348981.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 348981
             ],
@@ -1352,7 +1352,7 @@
             "sum_accumulated_times_ns": 605137,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 605137.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 605137
             ],
@@ -1367,7 +1367,7 @@
             "sum_accumulated_times_ns": 5572,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 5572.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 5572
             ],
@@ -1382,7 +1382,7 @@
             "sum_accumulated_times_ns": 14903,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 14903.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 14903
             ],
@@ -1394,10 +1394,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 86348735,
+            "sum_accumulated_times_ns": 34404252,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 5639000.0,
-            "avg_accumulated_edge_time_ns": 28782911.666666668,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 23126252,
                 28818231,
@@ -1413,10 +1413,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 77626,
+            "sum_accumulated_times_ns": 40393,
             "edge_occurrence_count": 2,
             "avg_time_per_occurrence_ns": 3160.0,
-            "avg_accumulated_edge_time_ns": 38813.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37233,
                 40393
@@ -1433,7 +1433,7 @@
             "sum_accumulated_times_ns": 314978,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 314978.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 314978
             ],
@@ -1448,7 +1448,7 @@
             "sum_accumulated_times_ns": 3925379,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3925379.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3925379
             ],
@@ -1463,7 +1463,7 @@
             "sum_accumulated_times_ns": 125183,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 125183.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 125183
             ],
@@ -1478,7 +1478,7 @@
             "sum_accumulated_times_ns": 653455,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 653455.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 653455
             ],
@@ -1493,7 +1493,7 @@
             "sum_accumulated_times_ns": 34616,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 34616.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 34616
             ],
@@ -1508,7 +1508,7 @@
             "sum_accumulated_times_ns": 2271105,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 2271105.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 2271105
             ],
@@ -1523,7 +1523,7 @@
             "sum_accumulated_times_ns": 40602,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 40602.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 40602
             ],
@@ -1538,7 +1538,7 @@
             "sum_accumulated_times_ns": 649248,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 649248.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 649248
             ],
@@ -1553,7 +1553,7 @@
             "sum_accumulated_times_ns": 51641,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 51641.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 51641
             ],
@@ -1568,7 +1568,7 @@
             "sum_accumulated_times_ns": 1914795,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 1914795.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 1914795
             ],
@@ -1583,7 +1583,7 @@
             "sum_accumulated_times_ns": 33432,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 33432.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 33432
             ],
@@ -1598,7 +1598,7 @@
             "sum_accumulated_times_ns": 486419,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 486419.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 486419
             ],
@@ -1613,7 +1613,7 @@
             "sum_accumulated_times_ns": 99310,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 99310.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 99310
             ],
@@ -1628,7 +1628,7 @@
             "sum_accumulated_times_ns": 581983,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 581983.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 581983
             ],
@@ -1643,7 +1643,7 @@
             "sum_accumulated_times_ns": 35320,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 35320.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 35320
             ],
@@ -1658,7 +1658,7 @@
             "sum_accumulated_times_ns": 1875427,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 1875427.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 1875427
             ],
@@ -1673,7 +1673,7 @@
             "sum_accumulated_times_ns": 90093,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 90093.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 90093
             ],
@@ -1688,7 +1688,7 @@
             "sum_accumulated_times_ns": 626548,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 626548.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 626548
             ],
@@ -1703,7 +1703,7 @@
             "sum_accumulated_times_ns": 33480,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 33480.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 33480
             ],
@@ -1718,7 +1718,7 @@
             "sum_accumulated_times_ns": 1929751,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 1929751.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 1929751
             ],
@@ -1733,7 +1733,7 @@
             "sum_accumulated_times_ns": 40778,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 40778.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 40778
             ],
@@ -1748,7 +1748,7 @@
             "sum_accumulated_times_ns": 586939,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 586939.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 586939
             ],
@@ -1763,7 +1763,7 @@
             "sum_accumulated_times_ns": 33175,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 33175.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 33175
             ],
@@ -1778,7 +1778,7 @@
             "sum_accumulated_times_ns": 3497276,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3497276.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3497276
             ],
@@ -1793,7 +1793,7 @@
             "sum_accumulated_times_ns": 37013,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37013.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37013
             ],
@@ -1808,7 +1808,7 @@
             "sum_accumulated_times_ns": 617644,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 617644.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 617644
             ],
@@ -1823,7 +1823,7 @@
             "sum_accumulated_times_ns": 46551,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 46551.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 46551
             ],
@@ -1838,7 +1838,7 @@
             "sum_accumulated_times_ns": 3078761,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3078761.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3078761
             ],
@@ -1853,7 +1853,7 @@
             "sum_accumulated_times_ns": 37798,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37798.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37798
             ],
@@ -1868,7 +1868,7 @@
             "sum_accumulated_times_ns": 559416,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 559416.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 559416
             ],
@@ -1883,7 +1883,7 @@
             "sum_accumulated_times_ns": 32822,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 32822.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 32822
             ],
@@ -1898,7 +1898,7 @@
             "sum_accumulated_times_ns": 3279252,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3279252.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3279252
             ],
@@ -1913,7 +1913,7 @@
             "sum_accumulated_times_ns": 35820,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 35820.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 35820
             ],
@@ -1928,7 +1928,7 @@
             "sum_accumulated_times_ns": 606192,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 606192.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 606192
             ],
@@ -1943,7 +1943,7 @@
             "sum_accumulated_times_ns": 36798,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 36798.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 36798
             ],
@@ -1958,7 +1958,7 @@
             "sum_accumulated_times_ns": 3318160,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3318160.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3318160
             ],
@@ -1973,7 +1973,7 @@
             "sum_accumulated_times_ns": 34144,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 34144.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 34144
             ],
@@ -1988,7 +1988,7 @@
             "sum_accumulated_times_ns": 623573,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 623573.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 623573
             ],
@@ -2003,7 +2003,7 @@
             "sum_accumulated_times_ns": 39954,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 39954.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 39954
             ],
@@ -2018,7 +2018,7 @@
             "sum_accumulated_times_ns": 3134218,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3134218.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3134218
             ],
@@ -2033,7 +2033,7 @@
             "sum_accumulated_times_ns": 49958,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 49958.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 49958
             ],
@@ -2048,7 +2048,7 @@
             "sum_accumulated_times_ns": 620413,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 620413.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 620413
             ],
@@ -2063,7 +2063,7 @@
             "sum_accumulated_times_ns": 37466,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37466.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37466
             ],
@@ -2078,7 +2078,7 @@
             "sum_accumulated_times_ns": 3111696,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3111696.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3111696
             ],
@@ -2093,7 +2093,7 @@
             "sum_accumulated_times_ns": 37397,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37397.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37397
             ],
@@ -2108,7 +2108,7 @@
             "sum_accumulated_times_ns": 559050,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 559050.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 559050
             ],
@@ -2123,7 +2123,7 @@
             "sum_accumulated_times_ns": 32918,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 32918.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 32918
             ],
@@ -2138,7 +2138,7 @@
             "sum_accumulated_times_ns": 3071499,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3071499.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3071499
             ],
@@ -2153,7 +2153,7 @@
             "sum_accumulated_times_ns": 40052,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 40052.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 40052
             ],
@@ -2168,7 +2168,7 @@
             "sum_accumulated_times_ns": 605366,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 605366.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 605366
             ],
@@ -2183,7 +2183,7 @@
             "sum_accumulated_times_ns": 3065248,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3065248.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3065248
             ],
@@ -2198,7 +2198,7 @@
             "sum_accumulated_times_ns": 39938,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 39938.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 39938
             ],
@@ -2213,7 +2213,7 @@
             "sum_accumulated_times_ns": 609677,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 609677.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 609677
             ],
@@ -2228,7 +2228,7 @@
             "sum_accumulated_times_ns": 3134108,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3134108.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3134108
             ],
@@ -2243,7 +2243,7 @@
             "sum_accumulated_times_ns": 38546,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 38546.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 38546
             ],
@@ -2258,7 +2258,7 @@
             "sum_accumulated_times_ns": 561921,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 561921.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 561921
             ],
@@ -2273,7 +2273,7 @@
             "sum_accumulated_times_ns": 3138102,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3138102.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3138102
             ],
@@ -2288,7 +2288,7 @@
             "sum_accumulated_times_ns": 36731,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 36731.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 36731
             ],
@@ -2303,7 +2303,7 @@
             "sum_accumulated_times_ns": 644749,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 644749.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 644749
             ],
@@ -2318,7 +2318,7 @@
             "sum_accumulated_times_ns": 36978,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 36978.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 36978
             ],
@@ -2333,7 +2333,7 @@
             "sum_accumulated_times_ns": 3053660,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3053660.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3053660
             ],
@@ -2348,7 +2348,7 @@
             "sum_accumulated_times_ns": 35943,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 35943.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 35943
             ],
@@ -2363,7 +2363,7 @@
             "sum_accumulated_times_ns": 556081,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 556081.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 556081
             ],
@@ -2378,7 +2378,7 @@
             "sum_accumulated_times_ns": 3142009,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3142009.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3142009
             ],
@@ -2393,7 +2393,7 @@
             "sum_accumulated_times_ns": 35718,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 35718.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 35718
             ],
@@ -2408,7 +2408,7 @@
             "sum_accumulated_times_ns": 580496,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 580496.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 580496
             ],
@@ -2423,7 +2423,7 @@
             "sum_accumulated_times_ns": 38909,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 38909.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 38909
             ],
@@ -2438,7 +2438,7 @@
             "sum_accumulated_times_ns": 3088980,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3088980.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3088980
             ],
@@ -2453,7 +2453,7 @@
             "sum_accumulated_times_ns": 36279,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 36279.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 36279
             ],
@@ -2468,7 +2468,7 @@
             "sum_accumulated_times_ns": 486200,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 486200.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 486200
             ],
@@ -2483,7 +2483,7 @@
             "sum_accumulated_times_ns": 77101,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 77101.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 77101
             ],
@@ -2498,7 +2498,7 @@
             "sum_accumulated_times_ns": 44312,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 44312.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 44312
             ],
@@ -2513,7 +2513,7 @@
             "sum_accumulated_times_ns": 3133180,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3133180.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3133180
             ],
@@ -2528,7 +2528,7 @@
             "sum_accumulated_times_ns": 37710,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37710.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37710
             ],
@@ -2543,7 +2543,7 @@
             "sum_accumulated_times_ns": 567240,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 567240.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 567240
             ],
@@ -2558,7 +2558,7 @@
             "sum_accumulated_times_ns": 37554,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37554.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37554
             ],
@@ -2573,7 +2573,7 @@
             "sum_accumulated_times_ns": 3316273,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3316273.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3316273
             ],
@@ -2588,7 +2588,7 @@
             "sum_accumulated_times_ns": 28287,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 28287.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 28287
             ],
@@ -2603,7 +2603,7 @@
             "sum_accumulated_times_ns": 3185199,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3185199.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3185199
             ],
@@ -2618,7 +2618,7 @@
             "sum_accumulated_times_ns": 670117,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 670117.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 670117
             ],
@@ -2633,7 +2633,7 @@
             "sum_accumulated_times_ns": 29982,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29982.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29982
             ],
@@ -2648,7 +2648,7 @@
             "sum_accumulated_times_ns": 3113946,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3113946.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3113946
             ],
@@ -2663,7 +2663,7 @@
             "sum_accumulated_times_ns": 627484,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 627484.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 627484
             ],
@@ -2678,7 +2678,7 @@
             "sum_accumulated_times_ns": 35679,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 35679.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 35679
             ],
@@ -2693,7 +2693,7 @@
             "sum_accumulated_times_ns": 622617,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 622617.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 622617
             ],
@@ -2708,7 +2708,7 @@
             "sum_accumulated_times_ns": 29865,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29865.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29865
             ],
@@ -2723,7 +2723,7 @@
             "sum_accumulated_times_ns": 3126266,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3126266.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3126266
             ],
@@ -2738,7 +2738,7 @@
             "sum_accumulated_times_ns": 30662,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 30662.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 30662
             ],
@@ -2753,7 +2753,7 @@
             "sum_accumulated_times_ns": 3151394,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3151394.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3151394
             ],
@@ -2768,7 +2768,7 @@
             "sum_accumulated_times_ns": 632963,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 632963.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 632963
             ],
@@ -2783,7 +2783,7 @@
             "sum_accumulated_times_ns": 27728,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 27728.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 27728
             ],
@@ -2798,7 +2798,7 @@
             "sum_accumulated_times_ns": 516339,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 516339.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 516339
             ],
@@ -2813,7 +2813,7 @@
             "sum_accumulated_times_ns": 610821,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 610821.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 610821
             ],
@@ -2828,7 +2828,7 @@
             "sum_accumulated_times_ns": 29440,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29440.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29440
             ],
@@ -2843,7 +2843,7 @@
             "sum_accumulated_times_ns": 644073,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 644073.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 644073
             ],
@@ -2858,7 +2858,7 @@
             "sum_accumulated_times_ns": 671254,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 671254.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 671254
             ],
@@ -2873,7 +2873,7 @@
             "sum_accumulated_times_ns": 40339,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 40339.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 40339
             ],
@@ -2888,7 +2888,7 @@
             "sum_accumulated_times_ns": 635582,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 635582.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 635582
             ],
@@ -2903,7 +2903,7 @@
             "sum_accumulated_times_ns": 30439,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 30439.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 30439
             ],
@@ -2918,7 +2918,7 @@
             "sum_accumulated_times_ns": 528471,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 528471.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 528471
             ],
@@ -2933,7 +2933,7 @@
             "sum_accumulated_times_ns": 38131,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 38131.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 38131
             ],
@@ -2948,7 +2948,7 @@
             "sum_accumulated_times_ns": 580865,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 580865.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 580865
             ],
@@ -2963,7 +2963,7 @@
             "sum_accumulated_times_ns": 22892,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 22892.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 22892
             ],
@@ -2978,7 +2978,7 @@
             "sum_accumulated_times_ns": 544858,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 544858.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 544858
             ],
@@ -2993,7 +2993,7 @@
             "sum_accumulated_times_ns": 26189,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26189.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26189
             ],
@@ -3008,7 +3008,7 @@
             "sum_accumulated_times_ns": 565478,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 565478.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 565478
             ],
@@ -3023,7 +3023,7 @@
             "sum_accumulated_times_ns": 650329,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 650329.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 650329
             ],
@@ -3038,7 +3038,7 @@
             "sum_accumulated_times_ns": 29305,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29305.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29305
             ],
@@ -3053,7 +3053,7 @@
             "sum_accumulated_times_ns": 3361903,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3361903.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3361903
             ],
@@ -3068,7 +3068,7 @@
             "sum_accumulated_times_ns": 669806,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 669806.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 669806
             ],
@@ -3083,7 +3083,7 @@
             "sum_accumulated_times_ns": 31388,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 31388.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 31388
             ],
@@ -3098,7 +3098,7 @@
             "sum_accumulated_times_ns": 3266679,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3266679.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3266679
             ],
@@ -3113,7 +3113,7 @@
             "sum_accumulated_times_ns": 706418,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 706418.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 706418
             ],
@@ -3128,7 +3128,7 @@
             "sum_accumulated_times_ns": 26949,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26949.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26949
             ],
@@ -3143,7 +3143,7 @@
             "sum_accumulated_times_ns": 3168657,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3168657.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3168657
             ],
@@ -3158,7 +3158,7 @@
             "sum_accumulated_times_ns": 620366,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 620366.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 620366
             ],
@@ -3173,7 +3173,7 @@
             "sum_accumulated_times_ns": 29859,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29859.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29859
             ],
@@ -3188,7 +3188,7 @@
             "sum_accumulated_times_ns": 3122474,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3122474.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3122474
             ],
@@ -3203,7 +3203,7 @@
             "sum_accumulated_times_ns": 594453,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 594453.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 594453
             ],
@@ -3218,7 +3218,7 @@
             "sum_accumulated_times_ns": 30250,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 30250.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 30250
             ],
@@ -3233,7 +3233,7 @@
             "sum_accumulated_times_ns": 3223257,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3223257.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3223257
             ],
@@ -3248,7 +3248,7 @@
             "sum_accumulated_times_ns": 616583,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 616583.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 616583
             ],
@@ -3263,7 +3263,7 @@
             "sum_accumulated_times_ns": 33898,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 33898.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 33898
             ],
@@ -3278,7 +3278,7 @@
             "sum_accumulated_times_ns": 3236259,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3236259.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3236259
             ],
@@ -3293,7 +3293,7 @@
             "sum_accumulated_times_ns": 660715,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 660715.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 660715
             ],
@@ -3308,7 +3308,7 @@
             "sum_accumulated_times_ns": 29878,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29878.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29878
             ],
@@ -3323,7 +3323,7 @@
             "sum_accumulated_times_ns": 3196488,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3196488.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3196488
             ],
@@ -3338,7 +3338,7 @@
             "sum_accumulated_times_ns": 638266,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 638266.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 638266
             ],
@@ -3353,7 +3353,7 @@
             "sum_accumulated_times_ns": 30311,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 30311.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 30311
             ],
@@ -3368,7 +3368,7 @@
             "sum_accumulated_times_ns": 3146569,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3146569.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3146569
             ],
@@ -3383,7 +3383,7 @@
             "sum_accumulated_times_ns": 648560,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 648560.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 648560
             ],
@@ -3398,7 +3398,7 @@
             "sum_accumulated_times_ns": 26662,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26662.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26662
             ],
@@ -3413,7 +3413,7 @@
             "sum_accumulated_times_ns": 3145743,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3145743.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3145743
             ],
@@ -3428,7 +3428,7 @@
             "sum_accumulated_times_ns": 582691,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 582691.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 582691
             ],
@@ -3443,7 +3443,7 @@
             "sum_accumulated_times_ns": 37675,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37675.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37675
             ],
@@ -3458,7 +3458,7 @@
             "sum_accumulated_times_ns": 621627,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 621627.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 621627
             ],
@@ -3473,7 +3473,7 @@
             "sum_accumulated_times_ns": 26165,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26165.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26165
             ],
@@ -3488,7 +3488,7 @@
             "sum_accumulated_times_ns": 3023434,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3023434.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3023434
             ],
@@ -3503,7 +3503,7 @@
             "sum_accumulated_times_ns": 27302,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 27302.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 27302
             ],
@@ -3518,7 +3518,7 @@
             "sum_accumulated_times_ns": 3139699,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3139699.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3139699
             ],
@@ -3533,7 +3533,7 @@
             "sum_accumulated_times_ns": 588964,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 588964.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 588964
             ],
@@ -3548,7 +3548,7 @@
             "sum_accumulated_times_ns": 27844,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 27844.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 27844
             ],
@@ -3563,7 +3563,7 @@
             "sum_accumulated_times_ns": 3143275,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3143275.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3143275
             ],
@@ -3578,7 +3578,7 @@
             "sum_accumulated_times_ns": 574458,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 574458.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 574458
             ],
@@ -3593,7 +3593,7 @@
             "sum_accumulated_times_ns": 27447,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 27447.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 27447
             ],
@@ -3608,7 +3608,7 @@
             "sum_accumulated_times_ns": 3065312,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3065312.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3065312
             ],
@@ -3623,7 +3623,7 @@
             "sum_accumulated_times_ns": 598009,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 598009.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 598009
             ],
@@ -3638,7 +3638,7 @@
             "sum_accumulated_times_ns": 26704,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26704.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26704
             ],
@@ -3653,7 +3653,7 @@
             "sum_accumulated_times_ns": 3134776,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3134776.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3134776
             ],
@@ -3668,7 +3668,7 @@
             "sum_accumulated_times_ns": 560809,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 560809.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 560809
             ],
@@ -3683,7 +3683,7 @@
             "sum_accumulated_times_ns": 26335,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26335.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26335
             ],
@@ -3698,7 +3698,7 @@
             "sum_accumulated_times_ns": 3087578,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3087578.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3087578
             ],
@@ -3713,7 +3713,7 @@
             "sum_accumulated_times_ns": 571988,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 571988.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 571988
             ],
@@ -3728,7 +3728,7 @@
             "sum_accumulated_times_ns": 26826,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26826.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26826
             ],
@@ -3743,7 +3743,7 @@
             "sum_accumulated_times_ns": 3054326,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3054326.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3054326
             ],
@@ -3758,7 +3758,7 @@
             "sum_accumulated_times_ns": 624951,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 624951.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 624951
             ],
@@ -3773,7 +3773,7 @@
             "sum_accumulated_times_ns": 25437,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 25437.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 25437
             ],
@@ -3788,7 +3788,7 @@
             "sum_accumulated_times_ns": 3064008,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3064008.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3064008
             ],
@@ -3803,7 +3803,7 @@
             "sum_accumulated_times_ns": 575195,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 575195.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 575195
             ],
@@ -3818,7 +3818,7 @@
             "sum_accumulated_times_ns": 25690,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 25690.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 25690
             ],
@@ -3833,7 +3833,7 @@
             "sum_accumulated_times_ns": 3064070,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3064070.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3064070
             ],
@@ -3848,7 +3848,7 @@
             "sum_accumulated_times_ns": 584197,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 584197.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 584197
             ],
@@ -3863,7 +3863,7 @@
             "sum_accumulated_times_ns": 26653,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26653.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26653
             ],
@@ -3878,7 +3878,7 @@
             "sum_accumulated_times_ns": 3060369,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 3060369.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 3060369
             ],
@@ -3893,7 +3893,7 @@
             "sum_accumulated_times_ns": 568872,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 568872.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 568872
             ],
@@ -3908,7 +3908,7 @@
             "sum_accumulated_times_ns": 28741,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 28741.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 28741
             ],
@@ -3923,7 +3923,7 @@
             "sum_accumulated_times_ns": 534161,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 534161.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 534161
             ],
@@ -3938,7 +3938,7 @@
             "sum_accumulated_times_ns": 623845,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 623845.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 623845
             ],
@@ -3953,7 +3953,7 @@
             "sum_accumulated_times_ns": 41647,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 41647.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 41647
             ],
@@ -3968,7 +3968,7 @@
             "sum_accumulated_times_ns": 625676,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 625676.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 625676
             ],
@@ -3983,7 +3983,7 @@
             "sum_accumulated_times_ns": 26325,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 26325.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 26325
             ],
@@ -3998,7 +3998,7 @@
             "sum_accumulated_times_ns": 575635,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 575635.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 575635
             ],
@@ -4013,7 +4013,7 @@
             "sum_accumulated_times_ns": 37313,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 37313.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 37313
             ],
@@ -4028,7 +4028,7 @@
             "sum_accumulated_times_ns": 556112,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 556112.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 556112
             ],
@@ -4043,7 +4043,7 @@
             "sum_accumulated_times_ns": 23478,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 23478.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 23478
             ],
@@ -4058,7 +4058,7 @@
             "sum_accumulated_times_ns": 799671,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 799671.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 799671
             ],
@@ -4073,7 +4073,7 @@
             "sum_accumulated_times_ns": 131858,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 131858.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 131858
             ],
@@ -4088,7 +4088,7 @@
             "sum_accumulated_times_ns": 71739,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 71739.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 71739
             ],
@@ -4103,7 +4103,7 @@
             "sum_accumulated_times_ns": 697691,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 697691.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 697691
             ],
@@ -4118,7 +4118,7 @@
             "sum_accumulated_times_ns": 24368,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 24368.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 24368
             ],
@@ -4130,10 +4130,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 57172437121,
+            "sum_accumulated_times_ns": 14545700844,
             "edge_occurrence_count": 4,
             "avg_time_per_occurrence_ns": 284259643.3333333,
-            "avg_accumulated_edge_time_ns": 14293109280.25,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 13692921914,
                 14388909318,
@@ -4154,7 +4154,7 @@
             "sum_accumulated_times_ns": 103229,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 103229.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 103229
             ],
@@ -4169,7 +4169,7 @@
             "sum_accumulated_times_ns": 67883,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 67883.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 67883
             ],
@@ -4184,7 +4184,7 @@
             "sum_accumulated_times_ns": 43596,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 43596.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 43596
             ],
@@ -4199,7 +4199,7 @@
             "sum_accumulated_times_ns": 71752,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 71752.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 71752
             ],
@@ -4211,10 +4211,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 1642002,
+            "sum_accumulated_times_ns": 456832,
             "edge_occurrence_count": 4,
             "avg_time_per_occurrence_ns": 40066.333333333336,
-            "avg_accumulated_edge_time_ns": 410500.5,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 336633,
                 404709,
@@ -4235,7 +4235,7 @@
             "sum_accumulated_times_ns": 64035,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 64035.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 64035
             ],
@@ -4247,10 +4247,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 1070983,
+            "sum_accumulated_times_ns": 411976,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 60884.0,
-            "avg_accumulated_edge_time_ns": 356994.3333333333,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 290208,
                 368799,
@@ -4269,7 +4269,7 @@
             "sum_accumulated_times_ns": 29607,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 29607.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 29607
             ],
@@ -4281,10 +4281,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 7074595,
+            "sum_accumulated_times_ns": 1030195,
             "edge_occurrence_count": 7,
             "avg_time_per_occurrence_ns": 7017.833333333333,
-            "avg_accumulated_edge_time_ns": 1010656.4285714285,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 988088,
                 991494,
@@ -4308,10 +4308,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 645788,
+            "sum_accumulated_times_ns": 236919,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 27071.0,
-            "avg_accumulated_edge_time_ns": 215262.66666666666,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 182777,
                 226092,
@@ -4327,10 +4327,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 738428,
+            "sum_accumulated_times_ns": 284692,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 29967.0,
-            "avg_accumulated_edge_time_ns": 246142.66666666666,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 224758,
                 228978,
@@ -4346,10 +4346,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 384340,
+            "sum_accumulated_times_ns": 136627,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 9382.5,
-            "avg_accumulated_edge_time_ns": 128113.33333333333,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 117862,
                 129851,
@@ -4365,10 +4365,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 940322,
+            "sum_accumulated_times_ns": 192601,
             "edge_occurrence_count": 5,
             "avg_time_per_occurrence_ns": 2330.5,
-            "avg_accumulated_edge_time_ns": 188064.4,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 183279,
                 185899,
@@ -4388,10 +4388,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 1066020,
+            "sum_accumulated_times_ns": 361376,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 5202.0,
-            "avg_accumulated_edge_time_ns": 355340.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 350972,
                 353672,
@@ -4407,10 +4407,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 1790001,
+            "sum_accumulated_times_ns": 453482,
             "edge_occurrence_count": 4,
             "avg_time_per_occurrence_ns": 4202.333333333333,
-            "avg_accumulated_edge_time_ns": 447500.25,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 440875,
                 444380,
@@ -4428,10 +4428,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 726225,
+            "sum_accumulated_times_ns": 252422,
             "edge_occurrence_count": 3,
             "avg_time_per_occurrence_ns": 9102.5,
-            "avg_accumulated_edge_time_ns": 242075.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 234217,
                 239586,
@@ -4447,10 +4447,10 @@
         },
         {
             "relation": "used_cpu",
-            "sum_accumulated_times_ns": 6448415,
+            "sum_accumulated_times_ns": 1151208,
             "edge_occurrence_count": 6,
             "avg_time_per_occurrence_ns": 37121.0,
-            "avg_accumulated_edge_time_ns": 1074735.8333333333,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 965603,
                 1001728,
@@ -4475,7 +4475,7 @@
             "sum_accumulated_times_ns": 117980,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 117980.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 117980
             ],
@@ -4490,7 +4490,7 @@
             "sum_accumulated_times_ns": 508243,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 508243.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 508243
             ],
@@ -4505,7 +4505,7 @@
             "sum_accumulated_times_ns": 20740,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 20740.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 20740
             ],
@@ -4520,7 +4520,7 @@
             "sum_accumulated_times_ns": 10360,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 10360.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 10360
             ],
@@ -4535,7 +4535,7 @@
             "sum_accumulated_times_ns": 10600,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 10600.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 10600
             ],
@@ -4550,7 +4550,7 @@
             "sum_accumulated_times_ns": 9687,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 9687.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 9687
             ],
@@ -4565,7 +4565,7 @@
             "sum_accumulated_times_ns": 156473,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 156473.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 156473
             ],
@@ -4580,7 +4580,7 @@
             "sum_accumulated_times_ns": 228525,
             "edge_occurrence_count": 1,
             "avg_time_per_occurrence_ns": 0,
-            "avg_accumulated_edge_time_ns": 228525.0,
+            "avg_accumulated_edge_time_ns": 0.0,
             "accumulated_times": [
                 228525
             ],
