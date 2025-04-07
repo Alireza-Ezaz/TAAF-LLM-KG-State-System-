@@ -55,25 +55,10 @@ for rec in records:
 # =============================================================================
 # STEP 2: AGGREGATE METRICS FOR CPU NODES AND (THREAD, CPU) EDGES
 # =============================================================================
-#
-# We treat every record (including those with thread "0") equally.
-#
-# For each CPU, we calculate:
-#   - busy_time_ns: total accumulated CPU time (sum of all records) on that CPU.
-#
-# For each (thread, CPU) pair (edge), we record:
-#   - total_edge_time_ns: sum of accumulated times for that (thread, CPU) pair.
-#   - edge_occurrence_count: number of records for that pair.
-#   - avg_edge_time_ns: average time per record on that edge.
-#
-# Additionally, for each CPU we derive:
-#   - num_unique_threads: number of unique threads running on that CPU.
-#   - avg_busy_time_per_thread_ns: busy_time_ns divided by num_unique_threads.
-#   - total_edge_occurrences: total number of (thread, CPU) occurrences on that CPU.
-#   - max_avg_edge_time_ns: maximum average edge time among all edges on that CPU.
+
 cpu_metrics = {}  # key: cpu id, value: dict with CPU properties
 edge_metrics = {}  # key: (thread, cpu) tuple, value: dict with edge properties
-thread_metrics = {}  # key: thread id, value: latest accumulated_cpu_time
+thread_metrics = {}  # key: thread id, value: dict with accumulated_cpu_time and cpu_id
 
 for rec in records:
     cpu = rec['cpu']
@@ -82,28 +67,29 @@ for rec in records:
 
     if cpu not in cpu_metrics:
         cpu_metrics[cpu] = {'busy_time_ns': 0}
-    # Add the record's time to the CPU's busy time.
     cpu_metrics[cpu]['busy_time_ns'] += acc_time
 
-    # Update edge metrics for each (thread, CPU) pair.
     edge_key = (thread, cpu)
     if edge_key not in edge_metrics:
         edge_metrics[edge_key] = {
-            'total_edge_time_ns': 0,
+            'sum_accumulated_times_ns': 0,
             'edge_occurrence_count': 0,
-            'accumulated_times': []
+            'accumulated_times': [],
+            'time_per_occurrence': []
         }
-    edge_metrics[edge_key]['total_edge_time_ns'] += acc_time
+    edge_metrics[edge_key]['sum_accumulated_times_ns'] += acc_time
     edge_metrics[edge_key]['edge_occurrence_count'] += 1
     edge_metrics[edge_key]['accumulated_times'].append(acc_time)
 
-    # For each thread, store the maximum (latest) accumulated time.
-    if thread not in thread_metrics or acc_time > thread_metrics[thread]:
-        thread_metrics[thread] = acc_time
+    # For each thread, store the maximum (latest) accumulated time and the cpu_id
+    if thread not in thread_metrics or acc_time > thread_metrics[thread]['accumulated_time']:
+        thread_metrics[thread] = {'cpu_id': cpu, 'accumulated_time': acc_time}
+    else:
+        # Keep the previous accumulated time if it's not the latest one.
+        thread_metrics[thread]['accumulated_time'] = max(thread_metrics[thread]['accumulated_time'], acc_time)
 
 # Compute additional CPU properties.
 for cpu, metrics in cpu_metrics.items():
-    # Unique threads on this CPU.
     unique_threads = {rec['thread'] for rec in records if rec['cpu'] == cpu}
     num_unique_threads = len(unique_threads)
     metrics['num_unique_threads'] = num_unique_threads
@@ -112,18 +98,34 @@ for cpu, metrics in cpu_metrics.items():
     else:
         metrics['avg_busy_time_per_thread_ns'] = 0
 
-    # Total edge occurrences for this CPU.
     total_edge_occurrences = sum(em['edge_occurrence_count'] for (t, c), em in edge_metrics.items() if c == cpu)
     metrics['total_edge_occurrences'] = total_edge_occurrences
 
-    # Maximum average edge time among all edges on this CPU.
     max_avg_edge_time = 0
     for (t, c), em in edge_metrics.items():
         if c == cpu:
-            avg_edge_time = em['total_edge_time_ns'] / em['edge_occurrence_count']
+            avg_edge_time = em['sum_accumulated_times_ns'] / em['edge_occurrence_count']
             if avg_edge_time > max_avg_edge_time:
                 max_avg_edge_time = avg_edge_time
     metrics['max_avg_edge_time_ns'] = max_avg_edge_time
+
+# Calculate time used in each occurrence.
+for (thread, cpu), em in edge_metrics.items():
+    prev_time = None
+    for time in em['accumulated_times']:
+        if prev_time is None:
+            em['time_per_occurrence'].append("N/A")
+        else:
+            em['time_per_occurrence'].append(time - prev_time)
+        prev_time = time
+
+# Calculate the new `Average Accumulated Edge Time (ns)`.
+for (thread, cpu), em in edge_metrics.items():
+    # Average of accumulated times (sum of accumulated times divided by the number of occurrences)
+    if em['edge_occurrence_count'] > 0:
+        em['avg_accumulated_edge_time_ns'] = em['sum_accumulated_times_ns'] / em['edge_occurrence_count']
+    else:
+        em['avg_accumulated_edge_time_ns'] = 0
 
 # =============================================================================
 # STEP 3: BUILD THE KNOWLEDGE GRAPH (NETWORKX)
@@ -142,25 +144,32 @@ for cpu, metrics in cpu_metrics.items():
                 total_edge_occurrences=metrics['total_edge_occurrences'],
                 max_avg_edge_time_ns=metrics['max_avg_edge_time_ns'])
 
-# Add Thread nodes.
-for thread, latest_time in thread_metrics.items():
+# Add Thread nodes with only `entity` and `thread_id`.
+for thread in thread_metrics:
     node_id = f"T_{thread}"
     KG.add_node(node_id,
                 entity="Thread",
-                thread_id=thread,
-                latest_accumulated_time_ns=latest_time)
+                thread_id=thread)  # Removed unnecessary fields
 
 # Add edges from Threads to CPUs.
 for (thread, cpu), em in edge_metrics.items():
     source = f"T_{thread}"
     target = f"CPU_{cpu}"
-    avg_edge_time = em['total_edge_time_ns'] / em['edge_occurrence_count']
+
+    # Filter out 'N/A' values from time_per_occurrence before calculating the average
+    valid_time_per_occurrence = [time for time in em['time_per_occurrence'] if time != "N/A"]
+
+    avg_time_per_occurrence = sum(valid_time_per_occurrence) / len(
+        valid_time_per_occurrence) if valid_time_per_occurrence else 0
+
     KG.add_edge(source, target,
                 relation="used_cpu",
-                total_edge_time_ns=em['total_edge_time_ns'],
+                sum_accumulated_times_ns=em['sum_accumulated_times_ns'],
                 edge_occurrence_count=em['edge_occurrence_count'],
-                avg_edge_time_ns=avg_edge_time,
-                accumulated_times=em['accumulated_times'])
+                avg_time_per_occurrence_ns=avg_time_per_occurrence,  # average of time per occurrence
+                avg_accumulated_edge_time_ns=em['avg_accumulated_edge_time_ns'],  # new feature
+                accumulated_times=em['accumulated_times'],  # Added accumulated_times
+                time_per_occurrence=em['time_per_occurrence'])
 
 
 # =============================================================================
@@ -178,7 +187,7 @@ def save_graph_json(graph, filename):
 
 # The following call is commented out so that the graph is not saved every time.
 # Uncomment the next line when you want to save the graph.
-# save_graph_json(KG, output_filename)
+save_graph_json(KG, output_filename)
 
 # =============================================================================
 # STEP 5: PRINT METRICS AND VISUALIZE THE KNOWLEDGE GRAPH
@@ -193,17 +202,21 @@ for cpu, metrics in cpu_metrics.items():
     print(f"  Max Avg Edge Time (ns): {metrics['max_avg_edge_time_ns']:.2f}")
 
 print("\n=== Thread Metrics ===")
-for thread, latest_time in thread_metrics.items():
-    print(f"Thread {thread}: Latest Accumulated Time (ns) = {latest_time}")
+for thread in thread_metrics:
+    print(f"Thread {thread}")
 
 print("\n=== Edge Metrics (Thread -> CPU) ===")
 for (thread, cpu), em in edge_metrics.items():
-    avg_edge_time = em['total_edge_time_ns'] / em['edge_occurrence_count']
+    valid_time_per_occurrence = [time for time in em['time_per_occurrence'] if time != "N/A"]
+    avg_time_per_occurrence = sum(valid_time_per_occurrence) / len(
+        valid_time_per_occurrence) if valid_time_per_occurrence else 0
     print(f"Thread {thread} -> CPU {cpu}:")
-    print(f"  Total Edge Time (ns): {em['total_edge_time_ns']}")
+    print(f"  Total Edge Time (ns): {em['sum_accumulated_times_ns']}")
     print(f"  Edge Occurrence Count: {em['edge_occurrence_count']}")
-    print(f"  Average Edge Time (ns): {avg_edge_time:.2f}")
-    print(f"  Recorded Values: {em['accumulated_times']}")
+    print(f"  Average Time per Occurrence (ns): {avg_time_per_occurrence}")
+    print(f"  Average Accumulated Edge Time (ns): {em['avg_accumulated_edge_time_ns']}")
+    print(f"  Accumulated Times: {em['accumulated_times']}")
+    print(f"  Time per Occurrence: {em['time_per_occurrence']}")
 
 # Visualize the Knowledge Graph.
 plt.figure(figsize=(8, 6))

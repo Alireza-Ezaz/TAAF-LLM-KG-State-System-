@@ -46,897 +46,756 @@
         {
             "entity": "Thread",
             "thread_id": "0",
-            "latest_accumulated_time_ns": 15526381889,
             "id": "T_0"
         },
         {
             "entity": "Thread",
             "thread_id": "5130",
-            "latest_accumulated_time_ns": 34468172,
             "id": "T_5130"
         },
         {
             "entity": "Thread",
             "thread_id": "17",
-            "latest_accumulated_time_ns": 46882,
             "id": "T_17"
         },
         {
             "entity": "Thread",
             "thread_id": "9",
-            "latest_accumulated_time_ns": 90232,
             "id": "T_9"
         },
         {
             "entity": "Thread",
             "thread_id": "22",
-            "latest_accumulated_time_ns": 88488,
             "id": "T_22"
         },
         {
             "entity": "Thread",
             "thread_id": "18",
-            "latest_accumulated_time_ns": 590354,
             "id": "T_18"
         },
         {
             "entity": "Thread",
             "thread_id": "23",
-            "latest_accumulated_time_ns": 144482,
             "id": "T_23"
         },
         {
             "entity": "Thread",
             "thread_id": "12",
-            "latest_accumulated_time_ns": 67536,
             "id": "T_12"
         },
         {
             "entity": "Thread",
             "thread_id": "7",
-            "latest_accumulated_time_ns": 456775,
             "id": "T_7"
         },
         {
             "entity": "Thread",
             "thread_id": "5125",
-            "latest_accumulated_time_ns": 520813,
             "id": "T_5125"
         },
         {
             "entity": "Thread",
             "thread_id": "5119",
-            "latest_accumulated_time_ns": 176098,
             "id": "T_5119"
         },
         {
             "entity": "Thread",
             "thread_id": "2186",
-            "latest_accumulated_time_ns": 23622189,
             "id": "T_2186"
         },
         {
             "entity": "Thread",
             "thread_id": "5123",
-            "latest_accumulated_time_ns": 390566,
             "id": "T_5123"
         },
         {
             "entity": "Thread",
             "thread_id": "5124",
-            "latest_accumulated_time_ns": 376275,
             "id": "T_5124"
         },
         {
             "entity": "Thread",
             "thread_id": "5126",
-            "latest_accumulated_time_ns": 107474,
             "id": "T_5126"
         },
         {
             "entity": "Thread",
             "thread_id": "5127",
-            "latest_accumulated_time_ns": 348498,
             "id": "T_5127"
         },
         {
             "entity": "Thread",
             "thread_id": "5129",
-            "latest_accumulated_time_ns": 434990,
             "id": "T_5129"
         },
         {
             "entity": "Thread",
             "thread_id": "5128",
-            "latest_accumulated_time_ns": 183827,
             "id": "T_5128"
         },
         {
             "entity": "Thread",
             "thread_id": "5132",
-            "latest_accumulated_time_ns": 348981,
             "id": "T_5132"
         },
         {
             "entity": "Thread",
             "thread_id": "5131",
-            "latest_accumulated_time_ns": 605137,
             "id": "T_5131"
         },
         {
             "entity": "Thread",
             "thread_id": "4740",
-            "latest_accumulated_time_ns": 34404252,
             "id": "T_4740"
         },
         {
             "entity": "Thread",
             "thread_id": "2208",
-            "latest_accumulated_time_ns": 3925379,
             "id": "T_2208"
         },
         {
             "entity": "Thread",
             "thread_id": "5133",
-            "latest_accumulated_time_ns": 653455,
             "id": "T_5133"
         },
         {
             "entity": "Thread",
             "thread_id": "5134",
-            "latest_accumulated_time_ns": 2271105,
             "id": "T_5134"
         },
         {
             "entity": "Thread",
             "thread_id": "5135",
-            "latest_accumulated_time_ns": 649248,
             "id": "T_5135"
         },
         {
             "entity": "Thread",
             "thread_id": "5136",
-            "latest_accumulated_time_ns": 1914795,
             "id": "T_5136"
         },
         {
             "entity": "Thread",
             "thread_id": "5137",
-            "latest_accumulated_time_ns": 486419,
             "id": "T_5137"
         },
         {
             "entity": "Thread",
             "thread_id": "5138",
-            "latest_accumulated_time_ns": 581983,
             "id": "T_5138"
         },
         {
             "entity": "Thread",
             "thread_id": "5139",
-            "latest_accumulated_time_ns": 1875427,
             "id": "T_5139"
         },
         {
             "entity": "Thread",
             "thread_id": "5140",
-            "latest_accumulated_time_ns": 626548,
             "id": "T_5140"
         },
         {
             "entity": "Thread",
             "thread_id": "5141",
-            "latest_accumulated_time_ns": 1929751,
             "id": "T_5141"
         },
         {
             "entity": "Thread",
             "thread_id": "5142",
-            "latest_accumulated_time_ns": 586939,
             "id": "T_5142"
         },
         {
             "entity": "Thread",
             "thread_id": "5143",
-            "latest_accumulated_time_ns": 3497276,
             "id": "T_5143"
         },
         {
             "entity": "Thread",
             "thread_id": "5144",
-            "latest_accumulated_time_ns": 617644,
             "id": "T_5144"
         },
         {
             "entity": "Thread",
             "thread_id": "5145",
-            "latest_accumulated_time_ns": 3078761,
             "id": "T_5145"
         },
         {
             "entity": "Thread",
             "thread_id": "5146",
-            "latest_accumulated_time_ns": 559416,
             "id": "T_5146"
         },
         {
             "entity": "Thread",
             "thread_id": "5147",
-            "latest_accumulated_time_ns": 3279252,
             "id": "T_5147"
         },
         {
             "entity": "Thread",
             "thread_id": "5148",
-            "latest_accumulated_time_ns": 606192,
             "id": "T_5148"
         },
         {
             "entity": "Thread",
             "thread_id": "5149",
-            "latest_accumulated_time_ns": 3318160,
             "id": "T_5149"
         },
         {
             "entity": "Thread",
             "thread_id": "5150",
-            "latest_accumulated_time_ns": 623573,
             "id": "T_5150"
         },
         {
             "entity": "Thread",
             "thread_id": "5151",
-            "latest_accumulated_time_ns": 3134218,
             "id": "T_5151"
         },
         {
             "entity": "Thread",
             "thread_id": "5152",
-            "latest_accumulated_time_ns": 620413,
             "id": "T_5152"
         },
         {
             "entity": "Thread",
             "thread_id": "5153",
-            "latest_accumulated_time_ns": 3111696,
             "id": "T_5153"
         },
         {
             "entity": "Thread",
             "thread_id": "5154",
-            "latest_accumulated_time_ns": 559050,
             "id": "T_5154"
         },
         {
             "entity": "Thread",
             "thread_id": "5155",
-            "latest_accumulated_time_ns": 3071499,
             "id": "T_5155"
         },
         {
             "entity": "Thread",
             "thread_id": "5156",
-            "latest_accumulated_time_ns": 605366,
             "id": "T_5156"
         },
         {
             "entity": "Thread",
             "thread_id": "5157",
-            "latest_accumulated_time_ns": 3065248,
             "id": "T_5157"
         },
         {
             "entity": "Thread",
             "thread_id": "5158",
-            "latest_accumulated_time_ns": 609677,
             "id": "T_5158"
         },
         {
             "entity": "Thread",
             "thread_id": "5159",
-            "latest_accumulated_time_ns": 3134108,
             "id": "T_5159"
         },
         {
             "entity": "Thread",
             "thread_id": "5160",
-            "latest_accumulated_time_ns": 561921,
             "id": "T_5160"
         },
         {
             "entity": "Thread",
             "thread_id": "5161",
-            "latest_accumulated_time_ns": 3138102,
             "id": "T_5161"
         },
         {
             "entity": "Thread",
             "thread_id": "5162",
-            "latest_accumulated_time_ns": 644749,
             "id": "T_5162"
         },
         {
             "entity": "Thread",
             "thread_id": "5163",
-            "latest_accumulated_time_ns": 3053660,
             "id": "T_5163"
         },
         {
             "entity": "Thread",
             "thread_id": "5164",
-            "latest_accumulated_time_ns": 556081,
             "id": "T_5164"
         },
         {
             "entity": "Thread",
             "thread_id": "5165",
-            "latest_accumulated_time_ns": 3142009,
             "id": "T_5165"
         },
         {
             "entity": "Thread",
             "thread_id": "5166",
-            "latest_accumulated_time_ns": 580496,
             "id": "T_5166"
         },
         {
             "entity": "Thread",
             "thread_id": "5167",
-            "latest_accumulated_time_ns": 3088980,
             "id": "T_5167"
         },
         {
             "entity": "Thread",
             "thread_id": "5168",
-            "latest_accumulated_time_ns": 486200,
             "id": "T_5168"
         },
         {
             "entity": "Thread",
             "thread_id": "5169",
-            "latest_accumulated_time_ns": 3133180,
             "id": "T_5169"
         },
         {
             "entity": "Thread",
             "thread_id": "5170",
-            "latest_accumulated_time_ns": 567240,
             "id": "T_5170"
         },
         {
             "entity": "Thread",
             "thread_id": "5171",
-            "latest_accumulated_time_ns": 3316273,
             "id": "T_5171"
         },
         {
             "entity": "Thread",
             "thread_id": "5173",
-            "latest_accumulated_time_ns": 3185199,
             "id": "T_5173"
         },
         {
             "entity": "Thread",
             "thread_id": "5172",
-            "latest_accumulated_time_ns": 670117,
             "id": "T_5172"
         },
         {
             "entity": "Thread",
             "thread_id": "5175",
-            "latest_accumulated_time_ns": 3113946,
             "id": "T_5175"
         },
         {
             "entity": "Thread",
             "thread_id": "5174",
-            "latest_accumulated_time_ns": 627484,
             "id": "T_5174"
         },
         {
             "entity": "Thread",
             "thread_id": "5176",
-            "latest_accumulated_time_ns": 622617,
             "id": "T_5176"
         },
         {
             "entity": "Thread",
             "thread_id": "5177",
-            "latest_accumulated_time_ns": 3126266,
             "id": "T_5177"
         },
         {
             "entity": "Thread",
             "thread_id": "5179",
-            "latest_accumulated_time_ns": 3151394,
             "id": "T_5179"
         },
         {
             "entity": "Thread",
             "thread_id": "5178",
-            "latest_accumulated_time_ns": 632963,
             "id": "T_5178"
         },
         {
             "entity": "Thread",
             "thread_id": "5181",
-            "latest_accumulated_time_ns": 516339,
             "id": "T_5181"
         },
         {
             "entity": "Thread",
             "thread_id": "5180",
-            "latest_accumulated_time_ns": 610821,
             "id": "T_5180"
         },
         {
             "entity": "Thread",
             "thread_id": "5183",
-            "latest_accumulated_time_ns": 644073,
             "id": "T_5183"
         },
         {
             "entity": "Thread",
             "thread_id": "5182",
-            "latest_accumulated_time_ns": 671254,
             "id": "T_5182"
         },
         {
             "entity": "Thread",
             "thread_id": "5184",
-            "latest_accumulated_time_ns": 635582,
             "id": "T_5184"
         },
         {
             "entity": "Thread",
             "thread_id": "5185",
-            "latest_accumulated_time_ns": 528471,
             "id": "T_5185"
         },
         {
             "entity": "Thread",
             "thread_id": "5186",
-            "latest_accumulated_time_ns": 580865,
             "id": "T_5186"
         },
         {
             "entity": "Thread",
             "thread_id": "5187",
-            "latest_accumulated_time_ns": 544858,
             "id": "T_5187"
         },
         {
             "entity": "Thread",
             "thread_id": "5189",
-            "latest_accumulated_time_ns": 565478,
             "id": "T_5189"
         },
         {
             "entity": "Thread",
             "thread_id": "5188",
-            "latest_accumulated_time_ns": 650329,
             "id": "T_5188"
         },
         {
             "entity": "Thread",
             "thread_id": "5191",
-            "latest_accumulated_time_ns": 3361903,
             "id": "T_5191"
         },
         {
             "entity": "Thread",
             "thread_id": "5190",
-            "latest_accumulated_time_ns": 669806,
             "id": "T_5190"
         },
         {
             "entity": "Thread",
             "thread_id": "5193",
-            "latest_accumulated_time_ns": 3266679,
             "id": "T_5193"
         },
         {
             "entity": "Thread",
             "thread_id": "5192",
-            "latest_accumulated_time_ns": 706418,
             "id": "T_5192"
         },
         {
             "entity": "Thread",
             "thread_id": "5195",
-            "latest_accumulated_time_ns": 3168657,
             "id": "T_5195"
         },
         {
             "entity": "Thread",
             "thread_id": "5194",
-            "latest_accumulated_time_ns": 620366,
             "id": "T_5194"
         },
         {
             "entity": "Thread",
             "thread_id": "5197",
-            "latest_accumulated_time_ns": 3122474,
             "id": "T_5197"
         },
         {
             "entity": "Thread",
             "thread_id": "5196",
-            "latest_accumulated_time_ns": 594453,
             "id": "T_5196"
         },
         {
             "entity": "Thread",
             "thread_id": "5199",
-            "latest_accumulated_time_ns": 3223257,
             "id": "T_5199"
         },
         {
             "entity": "Thread",
             "thread_id": "5198",
-            "latest_accumulated_time_ns": 616583,
             "id": "T_5198"
         },
         {
             "entity": "Thread",
             "thread_id": "5201",
-            "latest_accumulated_time_ns": 3236259,
             "id": "T_5201"
         },
         {
             "entity": "Thread",
             "thread_id": "5200",
-            "latest_accumulated_time_ns": 660715,
             "id": "T_5200"
         },
         {
             "entity": "Thread",
             "thread_id": "5203",
-            "latest_accumulated_time_ns": 3196488,
             "id": "T_5203"
         },
         {
             "entity": "Thread",
             "thread_id": "5202",
-            "latest_accumulated_time_ns": 638266,
             "id": "T_5202"
         },
         {
             "entity": "Thread",
             "thread_id": "5205",
-            "latest_accumulated_time_ns": 3146569,
             "id": "T_5205"
         },
         {
             "entity": "Thread",
             "thread_id": "5204",
-            "latest_accumulated_time_ns": 648560,
             "id": "T_5204"
         },
         {
             "entity": "Thread",
             "thread_id": "5207",
-            "latest_accumulated_time_ns": 3145743,
             "id": "T_5207"
         },
         {
             "entity": "Thread",
             "thread_id": "5206",
-            "latest_accumulated_time_ns": 582691,
             "id": "T_5206"
         },
         {
             "entity": "Thread",
             "thread_id": "5208",
-            "latest_accumulated_time_ns": 621627,
             "id": "T_5208"
         },
         {
             "entity": "Thread",
             "thread_id": "5209",
-            "latest_accumulated_time_ns": 3023434,
             "id": "T_5209"
         },
         {
             "entity": "Thread",
             "thread_id": "5211",
-            "latest_accumulated_time_ns": 3139699,
             "id": "T_5211"
         },
         {
             "entity": "Thread",
             "thread_id": "5210",
-            "latest_accumulated_time_ns": 588964,
             "id": "T_5210"
         },
         {
             "entity": "Thread",
             "thread_id": "5213",
-            "latest_accumulated_time_ns": 3143275,
             "id": "T_5213"
         },
         {
             "entity": "Thread",
             "thread_id": "5212",
-            "latest_accumulated_time_ns": 574458,
             "id": "T_5212"
         },
         {
             "entity": "Thread",
             "thread_id": "5215",
-            "latest_accumulated_time_ns": 3065312,
             "id": "T_5215"
         },
         {
             "entity": "Thread",
             "thread_id": "5214",
-            "latest_accumulated_time_ns": 598009,
             "id": "T_5214"
         },
         {
             "entity": "Thread",
             "thread_id": "5217",
-            "latest_accumulated_time_ns": 3134776,
             "id": "T_5217"
         },
         {
             "entity": "Thread",
             "thread_id": "5216",
-            "latest_accumulated_time_ns": 560809,
             "id": "T_5216"
         },
         {
             "entity": "Thread",
             "thread_id": "5219",
-            "latest_accumulated_time_ns": 3087578,
             "id": "T_5219"
         },
         {
             "entity": "Thread",
             "thread_id": "5218",
-            "latest_accumulated_time_ns": 571988,
             "id": "T_5218"
         },
         {
             "entity": "Thread",
             "thread_id": "5221",
-            "latest_accumulated_time_ns": 3054326,
             "id": "T_5221"
         },
         {
             "entity": "Thread",
             "thread_id": "5220",
-            "latest_accumulated_time_ns": 624951,
             "id": "T_5220"
         },
         {
             "entity": "Thread",
             "thread_id": "5223",
-            "latest_accumulated_time_ns": 3064008,
             "id": "T_5223"
         },
         {
             "entity": "Thread",
             "thread_id": "5222",
-            "latest_accumulated_time_ns": 575195,
             "id": "T_5222"
         },
         {
             "entity": "Thread",
             "thread_id": "5225",
-            "latest_accumulated_time_ns": 3064070,
             "id": "T_5225"
         },
         {
             "entity": "Thread",
             "thread_id": "5224",
-            "latest_accumulated_time_ns": 584197,
             "id": "T_5224"
         },
         {
             "entity": "Thread",
             "thread_id": "5227",
-            "latest_accumulated_time_ns": 3060369,
             "id": "T_5227"
         },
         {
             "entity": "Thread",
             "thread_id": "5226",
-            "latest_accumulated_time_ns": 568872,
             "id": "T_5226"
         },
         {
             "entity": "Thread",
             "thread_id": "5229",
-            "latest_accumulated_time_ns": 534161,
             "id": "T_5229"
         },
         {
             "entity": "Thread",
             "thread_id": "5228",
-            "latest_accumulated_time_ns": 623845,
             "id": "T_5228"
         },
         {
             "entity": "Thread",
             "thread_id": "5230",
-            "latest_accumulated_time_ns": 625676,
             "id": "T_5230"
         },
         {
             "entity": "Thread",
             "thread_id": "5231",
-            "latest_accumulated_time_ns": 575635,
             "id": "T_5231"
         },
         {
             "entity": "Thread",
             "thread_id": "5232",
-            "latest_accumulated_time_ns": 556112,
             "id": "T_5232"
         },
         {
             "entity": "Thread",
             "thread_id": "5233",
-            "latest_accumulated_time_ns": 799671,
             "id": "T_5233"
         },
         {
             "entity": "Thread",
             "thread_id": "5234",
-            "latest_accumulated_time_ns": 697691,
             "id": "T_5234"
         },
         {
             "entity": "Thread",
             "thread_id": "5236",
-            "latest_accumulated_time_ns": 14545700844,
             "id": "T_5236"
         },
         {
             "entity": "Thread",
             "thread_id": "1",
-            "latest_accumulated_time_ns": 103229,
             "id": "T_1"
         },
         {
             "entity": "Thread",
             "thread_id": "351",
-            "latest_accumulated_time_ns": 67883,
             "id": "T_351"
         },
         {
             "entity": "Thread",
             "thread_id": "193",
-            "latest_accumulated_time_ns": 456832,
             "id": "T_193"
         },
         {
             "entity": "Thread",
             "thread_id": "508",
-            "latest_accumulated_time_ns": 411976,
             "id": "T_508"
         },
         {
             "entity": "Thread",
             "thread_id": "466",
-            "latest_accumulated_time_ns": 29607,
             "id": "T_466"
         },
         {
             "entity": "Thread",
             "thread_id": "15322",
-            "latest_accumulated_time_ns": 1030195,
             "id": "T_15322"
         },
         {
             "entity": "Thread",
             "thread_id": "507",
-            "latest_accumulated_time_ns": 236919,
             "id": "T_507"
         },
         {
             "entity": "Thread",
             "thread_id": "154",
-            "latest_accumulated_time_ns": 284692,
             "id": "T_154"
         },
         {
             "entity": "Thread",
             "thread_id": "129",
-            "latest_accumulated_time_ns": 192601,
             "id": "T_129"
         },
         {
             "entity": "Thread",
             "thread_id": "2559",
-            "latest_accumulated_time_ns": 361376,
             "id": "T_2559"
         },
         {
             "entity": "Thread",
             "thread_id": "5096",
-            "latest_accumulated_time_ns": 453482,
             "id": "T_5096"
         },
         {
             "entity": "Thread",
             "thread_id": "11873",
-            "latest_accumulated_time_ns": 252422,
             "id": "T_11873"
         },
         {
             "entity": "Thread",
             "thread_id": "510",
-            "latest_accumulated_time_ns": 1151208,
             "id": "T_510"
         },
         {
             "entity": "Thread",
             "thread_id": "577",
-            "latest_accumulated_time_ns": 117980,
             "id": "T_577"
         },
         {
             "entity": "Thread",
             "thread_id": "3",
-            "latest_accumulated_time_ns": 508243,
             "id": "T_3"
         },
         {
             "entity": "Thread",
             "thread_id": "11",
-            "latest_accumulated_time_ns": 20740,
             "id": "T_11"
         },
         {
             "entity": "Thread",
             "thread_id": "16",
-            "latest_accumulated_time_ns": 10360,
             "id": "T_16"
         },
         {
             "entity": "Thread",
             "thread_id": "21",
-            "latest_accumulated_time_ns": 10600,
             "id": "T_21"
         },
         {
             "entity": "Thread",
             "thread_id": "10",
-            "latest_accumulated_time_ns": 9687,
             "id": "T_10"
         },
         {
             "entity": "Thread",
             "thread_id": "530",
-            "latest_accumulated_time_ns": 156473,
             "id": "T_530"
         },
         {
             "entity": "Thread",
             "thread_id": "13",
-            "latest_accumulated_time_ns": 228525,
             "id": "T_13"
         }
     ],
     "links": [
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 600228811,
+            "sum_accumulated_times_ns": 600228811,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 600228811.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 600228811.0,
             "accumulated_times": [
                 600228811
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_0",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 242144669633,
+            "sum_accumulated_times_ns": 242144669633,
             "edge_occurrence_count": 16,
-            "avg_edge_time_ns": 15134041852.0625,
+            "avg_time_per_occurrence_ns": 62643440.06666667,
+            "avg_accumulated_edge_time_ns": 15134041852.0625,
             "accumulated_times": [
                 14586730288,
                 14726729809,
@@ -955,14 +814,33 @@
                 15469885809,
                 15526381889
             ],
+            "time_per_occurrence": [
+                "N/A",
+                139999521,
+                152011433,
+                15930268,
+                31949075,
+                51995336,
+                23996724,
+                123975253,
+                5382854,
+                194600332,
+                42776343,
+                200697,
+                18284577,
+                53989248,
+                28063860,
+                56496080
+            ],
             "source": "T_0",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 133762510009,
+            "sum_accumulated_times_ns": 133762510009,
             "edge_occurrence_count": 9,
-            "avg_edge_time_ns": 14862501112.11111,
+            "avg_time_per_occurrence_ns": 52074972.5,
+            "avg_accumulated_edge_time_ns": 14862501112.11111,
             "accumulated_times": [
                 14545717632,
                 14877711877,
@@ -974,14 +852,26 @@
                 14958322544,
                 14962317412
             ],
+            "time_per_occurrence": [
+                "N/A",
+                331994245,
+                2310417,
+                55722,
+                2111,
+                7837461,
+                2424931,
+                67980025,
+                3994868
+            ],
             "source": "T_0",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 133902099905,
+            "sum_accumulated_times_ns": 133902099905,
             "edge_occurrence_count": 9,
-            "avg_edge_time_ns": 14878011100.555555,
+            "avg_time_per_occurrence_ns": 98984076.875,
+            "avg_accumulated_edge_time_ns": 14878011100.555555,
             "accumulated_times": [
                 14316925902,
                 14904969181,
@@ -993,2489 +883,3408 @@
                 15012769774,
                 15108798517
             ],
+            "time_per_occurrence": [
+                "N/A",
+                588043279,
+                2185823,
+                2290806,
+                43965,
+                2204812,
+                9156768,
+                91918419,
+                96028743
+            ],
             "source": "T_0",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 34468172,
+            "sum_accumulated_times_ns": 34468172,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 34468172.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 34468172.0,
             "accumulated_times": [
                 34468172
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5130",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 12974809,
+            "sum_accumulated_times_ns": 12974809,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 12974809.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 12974809.0,
             "accumulated_times": [
                 12974809
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5130",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 18459740,
+            "sum_accumulated_times_ns": 18459740,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 18459740.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 18459740.0,
             "accumulated_times": [
                 18459740
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5130",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 4457969,
+            "sum_accumulated_times_ns": 4457969,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 4457969.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 4457969.0,
             "accumulated_times": [
                 4457969
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5130",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 46882,
+            "sum_accumulated_times_ns": 46882,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 46882.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 46882.0,
             "accumulated_times": [
                 46882
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_17",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 90232,
+            "sum_accumulated_times_ns": 90232,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 90232.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 90232.0,
             "accumulated_times": [
                 90232
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_9",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 88488,
+            "sum_accumulated_times_ns": 88488,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 88488.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 88488.0,
             "accumulated_times": [
                 88488
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_22",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 590354,
+            "sum_accumulated_times_ns": 590354,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 590354.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 590354.0,
             "accumulated_times": [
                 590354
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_18",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 144482,
+            "sum_accumulated_times_ns": 144482,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 144482.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 144482.0,
             "accumulated_times": [
                 144482
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_23",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 67536,
+            "sum_accumulated_times_ns": 67536,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 67536.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 67536.0,
             "accumulated_times": [
                 67536
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_12",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 48863,
+            "sum_accumulated_times_ns": 48863,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 48863.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 48863.0,
             "accumulated_times": [
                 48863
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_7",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 253766,
+            "sum_accumulated_times_ns": 253766,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 253766.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 253766.0,
             "accumulated_times": [
                 253766
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_7",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 118875,
+            "sum_accumulated_times_ns": 118875,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 118875.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 118875.0,
             "accumulated_times": [
                 118875
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_7",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 456775,
+            "sum_accumulated_times_ns": 456775,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 456775.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 456775.0,
             "accumulated_times": [
                 456775
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_7",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 266934,
+            "sum_accumulated_times_ns": 266934,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 266934.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 266934.0,
             "accumulated_times": [
                 266934
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5125",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 46419,
+            "sum_accumulated_times_ns": 46419,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 46419.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 46419.0,
             "accumulated_times": [
                 46419
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5125",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 520813,
+            "sum_accumulated_times_ns": 520813,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 520813.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 520813.0,
             "accumulated_times": [
                 520813
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5125",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 176098,
+            "sum_accumulated_times_ns": 176098,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 176098.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 176098.0,
             "accumulated_times": [
                 176098
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5119",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 23622189,
+            "sum_accumulated_times_ns": 23622189,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 23622189.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 23622189.0,
             "accumulated_times": [
                 23622189
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_2186",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 390566,
+            "sum_accumulated_times_ns": 390566,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 390566.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 390566.0,
             "accumulated_times": [
                 390566
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5123",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 79031,
+            "sum_accumulated_times_ns": 79031,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 79031.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 79031.0,
             "accumulated_times": [
                 79031
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5124",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 376275,
+            "sum_accumulated_times_ns": 376275,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 376275.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 376275.0,
             "accumulated_times": [
                 376275
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5124",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 107474,
+            "sum_accumulated_times_ns": 107474,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 107474.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 107474.0,
             "accumulated_times": [
                 107474
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5126",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 35811,
+            "sum_accumulated_times_ns": 35811,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 35811.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 35811.0,
             "accumulated_times": [
                 35811
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5127",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 348498,
+            "sum_accumulated_times_ns": 348498,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 348498.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 348498.0,
             "accumulated_times": [
                 348498
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5127",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 31052,
+            "sum_accumulated_times_ns": 31052,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 31052.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 31052.0,
             "accumulated_times": [
                 31052
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5129",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 434990,
+            "sum_accumulated_times_ns": 434990,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 434990.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 434990.0,
             "accumulated_times": [
                 434990
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5129",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 183827,
+            "sum_accumulated_times_ns": 183827,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 183827.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 183827.0,
             "accumulated_times": [
                 183827
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5128",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 28659,
+            "sum_accumulated_times_ns": 28659,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 28659.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 28659.0,
             "accumulated_times": [
                 28659
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5132",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 348981,
+            "sum_accumulated_times_ns": 348981,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 348981.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 348981.0,
             "accumulated_times": [
                 348981
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5132",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 605137,
+            "sum_accumulated_times_ns": 605137,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 605137.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 605137.0,
             "accumulated_times": [
                 605137
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5131",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 5572,
+            "sum_accumulated_times_ns": 5572,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 5572.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 5572.0,
             "accumulated_times": [
                 5572
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_4740",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 14903,
+            "sum_accumulated_times_ns": 14903,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 14903.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 14903.0,
             "accumulated_times": [
                 14903
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_4740",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 86348735,
+            "sum_accumulated_times_ns": 86348735,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 28782911.666666668,
+            "avg_time_per_occurrence_ns": 5639000.0,
+            "avg_accumulated_edge_time_ns": 28782911.666666668,
             "accumulated_times": [
                 23126252,
                 28818231,
                 34404252
             ],
+            "time_per_occurrence": [
+                "N/A",
+                5691979,
+                5586021
+            ],
             "source": "T_4740",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 77626,
+            "sum_accumulated_times_ns": 77626,
             "edge_occurrence_count": 2,
-            "avg_edge_time_ns": 38813.0,
+            "avg_time_per_occurrence_ns": 3160.0,
+            "avg_accumulated_edge_time_ns": 38813.0,
             "accumulated_times": [
                 37233,
                 40393
             ],
+            "time_per_occurrence": [
+                "N/A",
+                3160
+            ],
             "source": "T_4740",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 314978,
+            "sum_accumulated_times_ns": 314978,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 314978.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 314978.0,
             "accumulated_times": [
                 314978
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_2208",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3925379,
+            "sum_accumulated_times_ns": 3925379,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3925379.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3925379.0,
             "accumulated_times": [
                 3925379
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_2208",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 125183,
+            "sum_accumulated_times_ns": 125183,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 125183.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 125183.0,
             "accumulated_times": [
                 125183
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5133",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 653455,
+            "sum_accumulated_times_ns": 653455,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 653455.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 653455.0,
             "accumulated_times": [
                 653455
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5133",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 34616,
+            "sum_accumulated_times_ns": 34616,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 34616.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 34616.0,
             "accumulated_times": [
                 34616
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5134",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 2271105,
+            "sum_accumulated_times_ns": 2271105,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 2271105.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 2271105.0,
             "accumulated_times": [
                 2271105
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5134",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 40602,
+            "sum_accumulated_times_ns": 40602,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 40602.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 40602.0,
             "accumulated_times": [
                 40602
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5135",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 649248,
+            "sum_accumulated_times_ns": 649248,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 649248.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 649248.0,
             "accumulated_times": [
                 649248
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5135",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 51641,
+            "sum_accumulated_times_ns": 51641,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 51641.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 51641.0,
             "accumulated_times": [
                 51641
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5136",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1914795,
+            "sum_accumulated_times_ns": 1914795,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 1914795.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 1914795.0,
             "accumulated_times": [
                 1914795
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5136",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 33432,
+            "sum_accumulated_times_ns": 33432,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 33432.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 33432.0,
             "accumulated_times": [
                 33432
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5137",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 486419,
+            "sum_accumulated_times_ns": 486419,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 486419.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 486419.0,
             "accumulated_times": [
                 486419
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5137",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 99310,
+            "sum_accumulated_times_ns": 99310,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 99310.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 99310.0,
             "accumulated_times": [
                 99310
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5138",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 581983,
+            "sum_accumulated_times_ns": 581983,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 581983.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 581983.0,
             "accumulated_times": [
                 581983
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5138",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 35320,
+            "sum_accumulated_times_ns": 35320,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 35320.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 35320.0,
             "accumulated_times": [
                 35320
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5139",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1875427,
+            "sum_accumulated_times_ns": 1875427,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 1875427.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 1875427.0,
             "accumulated_times": [
                 1875427
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5139",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 90093,
+            "sum_accumulated_times_ns": 90093,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 90093.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 90093.0,
             "accumulated_times": [
                 90093
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5140",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 626548,
+            "sum_accumulated_times_ns": 626548,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 626548.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 626548.0,
             "accumulated_times": [
                 626548
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5140",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 33480,
+            "sum_accumulated_times_ns": 33480,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 33480.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 33480.0,
             "accumulated_times": [
                 33480
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5141",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1929751,
+            "sum_accumulated_times_ns": 1929751,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 1929751.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 1929751.0,
             "accumulated_times": [
                 1929751
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5141",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 40778,
+            "sum_accumulated_times_ns": 40778,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 40778.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 40778.0,
             "accumulated_times": [
                 40778
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5142",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 586939,
+            "sum_accumulated_times_ns": 586939,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 586939.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 586939.0,
             "accumulated_times": [
                 586939
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5142",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 33175,
+            "sum_accumulated_times_ns": 33175,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 33175.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 33175.0,
             "accumulated_times": [
                 33175
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5143",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3497276,
+            "sum_accumulated_times_ns": 3497276,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3497276.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3497276.0,
             "accumulated_times": [
                 3497276
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5143",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37013,
+            "sum_accumulated_times_ns": 37013,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37013.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37013.0,
             "accumulated_times": [
                 37013
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5144",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 617644,
+            "sum_accumulated_times_ns": 617644,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 617644.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 617644.0,
             "accumulated_times": [
                 617644
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5144",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 46551,
+            "sum_accumulated_times_ns": 46551,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 46551.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 46551.0,
             "accumulated_times": [
                 46551
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5145",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3078761,
+            "sum_accumulated_times_ns": 3078761,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3078761.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3078761.0,
             "accumulated_times": [
                 3078761
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5145",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37798,
+            "sum_accumulated_times_ns": 37798,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37798.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37798.0,
             "accumulated_times": [
                 37798
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5146",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 559416,
+            "sum_accumulated_times_ns": 559416,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 559416.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 559416.0,
             "accumulated_times": [
                 559416
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5146",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 32822,
+            "sum_accumulated_times_ns": 32822,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 32822.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 32822.0,
             "accumulated_times": [
                 32822
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5147",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3279252,
+            "sum_accumulated_times_ns": 3279252,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3279252.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3279252.0,
             "accumulated_times": [
                 3279252
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5147",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 35820,
+            "sum_accumulated_times_ns": 35820,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 35820.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 35820.0,
             "accumulated_times": [
                 35820
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5148",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 606192,
+            "sum_accumulated_times_ns": 606192,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 606192.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 606192.0,
             "accumulated_times": [
                 606192
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5148",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 36798,
+            "sum_accumulated_times_ns": 36798,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 36798.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 36798.0,
             "accumulated_times": [
                 36798
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5149",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3318160,
+            "sum_accumulated_times_ns": 3318160,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3318160.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3318160.0,
             "accumulated_times": [
                 3318160
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5149",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 34144,
+            "sum_accumulated_times_ns": 34144,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 34144.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 34144.0,
             "accumulated_times": [
                 34144
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5150",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 623573,
+            "sum_accumulated_times_ns": 623573,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 623573.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 623573.0,
             "accumulated_times": [
                 623573
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5150",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 39954,
+            "sum_accumulated_times_ns": 39954,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 39954.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 39954.0,
             "accumulated_times": [
                 39954
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5151",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3134218,
+            "sum_accumulated_times_ns": 3134218,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3134218.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3134218.0,
             "accumulated_times": [
                 3134218
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5151",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 49958,
+            "sum_accumulated_times_ns": 49958,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 49958.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 49958.0,
             "accumulated_times": [
                 49958
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5152",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 620413,
+            "sum_accumulated_times_ns": 620413,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 620413.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 620413.0,
             "accumulated_times": [
                 620413
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5152",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37466,
+            "sum_accumulated_times_ns": 37466,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37466.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37466.0,
             "accumulated_times": [
                 37466
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5153",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3111696,
+            "sum_accumulated_times_ns": 3111696,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3111696.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3111696.0,
             "accumulated_times": [
                 3111696
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5153",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37397,
+            "sum_accumulated_times_ns": 37397,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37397.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37397.0,
             "accumulated_times": [
                 37397
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5154",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 559050,
+            "sum_accumulated_times_ns": 559050,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 559050.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 559050.0,
             "accumulated_times": [
                 559050
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5154",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 32918,
+            "sum_accumulated_times_ns": 32918,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 32918.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 32918.0,
             "accumulated_times": [
                 32918
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5155",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3071499,
+            "sum_accumulated_times_ns": 3071499,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3071499.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3071499.0,
             "accumulated_times": [
                 3071499
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5155",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 40052,
+            "sum_accumulated_times_ns": 40052,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 40052.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 40052.0,
             "accumulated_times": [
                 40052
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5156",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 605366,
+            "sum_accumulated_times_ns": 605366,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 605366.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 605366.0,
             "accumulated_times": [
                 605366
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5156",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3065248,
+            "sum_accumulated_times_ns": 3065248,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3065248.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3065248.0,
             "accumulated_times": [
                 3065248
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5157",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 39938,
+            "sum_accumulated_times_ns": 39938,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 39938.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 39938.0,
             "accumulated_times": [
                 39938
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5158",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 609677,
+            "sum_accumulated_times_ns": 609677,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 609677.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 609677.0,
             "accumulated_times": [
                 609677
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5158",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3134108,
+            "sum_accumulated_times_ns": 3134108,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3134108.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3134108.0,
             "accumulated_times": [
                 3134108
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5159",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 38546,
+            "sum_accumulated_times_ns": 38546,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 38546.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 38546.0,
             "accumulated_times": [
                 38546
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5160",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 561921,
+            "sum_accumulated_times_ns": 561921,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 561921.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 561921.0,
             "accumulated_times": [
                 561921
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5160",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3138102,
+            "sum_accumulated_times_ns": 3138102,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3138102.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3138102.0,
             "accumulated_times": [
                 3138102
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5161",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 36731,
+            "sum_accumulated_times_ns": 36731,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 36731.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 36731.0,
             "accumulated_times": [
                 36731
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5162",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 644749,
+            "sum_accumulated_times_ns": 644749,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 644749.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 644749.0,
             "accumulated_times": [
                 644749
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5162",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 36978,
+            "sum_accumulated_times_ns": 36978,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 36978.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 36978.0,
             "accumulated_times": [
                 36978
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5163",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3053660,
+            "sum_accumulated_times_ns": 3053660,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3053660.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3053660.0,
             "accumulated_times": [
                 3053660
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5163",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 35943,
+            "sum_accumulated_times_ns": 35943,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 35943.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 35943.0,
             "accumulated_times": [
                 35943
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5164",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 556081,
+            "sum_accumulated_times_ns": 556081,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 556081.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 556081.0,
             "accumulated_times": [
                 556081
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5164",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3142009,
+            "sum_accumulated_times_ns": 3142009,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3142009.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3142009.0,
             "accumulated_times": [
                 3142009
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5165",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 35718,
+            "sum_accumulated_times_ns": 35718,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 35718.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 35718.0,
             "accumulated_times": [
                 35718
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5166",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 580496,
+            "sum_accumulated_times_ns": 580496,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 580496.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 580496.0,
             "accumulated_times": [
                 580496
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5166",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 38909,
+            "sum_accumulated_times_ns": 38909,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 38909.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 38909.0,
             "accumulated_times": [
                 38909
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5167",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3088980,
+            "sum_accumulated_times_ns": 3088980,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3088980.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3088980.0,
             "accumulated_times": [
                 3088980
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5167",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 36279,
+            "sum_accumulated_times_ns": 36279,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 36279.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 36279.0,
             "accumulated_times": [
                 36279
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5168",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 486200,
+            "sum_accumulated_times_ns": 486200,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 486200.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 486200.0,
             "accumulated_times": [
                 486200
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5168",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 77101,
+            "sum_accumulated_times_ns": 77101,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 77101.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 77101.0,
             "accumulated_times": [
                 77101
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5168",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 44312,
+            "sum_accumulated_times_ns": 44312,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 44312.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 44312.0,
             "accumulated_times": [
                 44312
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5169",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3133180,
+            "sum_accumulated_times_ns": 3133180,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3133180.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3133180.0,
             "accumulated_times": [
                 3133180
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5169",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37710,
+            "sum_accumulated_times_ns": 37710,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37710.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37710.0,
             "accumulated_times": [
                 37710
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5170",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 567240,
+            "sum_accumulated_times_ns": 567240,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 567240.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 567240.0,
             "accumulated_times": [
                 567240
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5170",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37554,
+            "sum_accumulated_times_ns": 37554,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37554.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37554.0,
             "accumulated_times": [
                 37554
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5171",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3316273,
+            "sum_accumulated_times_ns": 3316273,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3316273.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3316273.0,
             "accumulated_times": [
                 3316273
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5171",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 28287,
+            "sum_accumulated_times_ns": 28287,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 28287.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 28287.0,
             "accumulated_times": [
                 28287
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5173",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3185199,
+            "sum_accumulated_times_ns": 3185199,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3185199.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3185199.0,
             "accumulated_times": [
                 3185199
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5173",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 670117,
+            "sum_accumulated_times_ns": 670117,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 670117.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 670117.0,
             "accumulated_times": [
                 670117
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5172",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29982,
+            "sum_accumulated_times_ns": 29982,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29982.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29982.0,
             "accumulated_times": [
                 29982
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5175",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3113946,
+            "sum_accumulated_times_ns": 3113946,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3113946.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3113946.0,
             "accumulated_times": [
                 3113946
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5175",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 627484,
+            "sum_accumulated_times_ns": 627484,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 627484.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 627484.0,
             "accumulated_times": [
                 627484
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5174",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 35679,
+            "sum_accumulated_times_ns": 35679,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 35679.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 35679.0,
             "accumulated_times": [
                 35679
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5176",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 622617,
+            "sum_accumulated_times_ns": 622617,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 622617.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 622617.0,
             "accumulated_times": [
                 622617
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5176",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29865,
+            "sum_accumulated_times_ns": 29865,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29865.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29865.0,
             "accumulated_times": [
                 29865
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5177",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3126266,
+            "sum_accumulated_times_ns": 3126266,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3126266.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3126266.0,
             "accumulated_times": [
                 3126266
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5177",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 30662,
+            "sum_accumulated_times_ns": 30662,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 30662.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 30662.0,
             "accumulated_times": [
                 30662
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5179",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3151394,
+            "sum_accumulated_times_ns": 3151394,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3151394.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3151394.0,
             "accumulated_times": [
                 3151394
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5179",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 632963,
+            "sum_accumulated_times_ns": 632963,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 632963.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 632963.0,
             "accumulated_times": [
                 632963
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5178",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 27728,
+            "sum_accumulated_times_ns": 27728,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 27728.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 27728.0,
             "accumulated_times": [
                 27728
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5181",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 516339,
+            "sum_accumulated_times_ns": 516339,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 516339.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 516339.0,
             "accumulated_times": [
                 516339
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5181",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 610821,
+            "sum_accumulated_times_ns": 610821,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 610821.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 610821.0,
             "accumulated_times": [
                 610821
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5180",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29440,
+            "sum_accumulated_times_ns": 29440,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29440.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29440.0,
             "accumulated_times": [
                 29440
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5183",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 644073,
+            "sum_accumulated_times_ns": 644073,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 644073.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 644073.0,
             "accumulated_times": [
                 644073
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5183",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 671254,
+            "sum_accumulated_times_ns": 671254,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 671254.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 671254.0,
             "accumulated_times": [
                 671254
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5182",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 40339,
+            "sum_accumulated_times_ns": 40339,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 40339.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 40339.0,
             "accumulated_times": [
                 40339
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5184",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 635582,
+            "sum_accumulated_times_ns": 635582,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 635582.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 635582.0,
             "accumulated_times": [
                 635582
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5184",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 30439,
+            "sum_accumulated_times_ns": 30439,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 30439.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 30439.0,
             "accumulated_times": [
                 30439
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5185",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 528471,
+            "sum_accumulated_times_ns": 528471,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 528471.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 528471.0,
             "accumulated_times": [
                 528471
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5185",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 38131,
+            "sum_accumulated_times_ns": 38131,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 38131.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 38131.0,
             "accumulated_times": [
                 38131
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5186",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 580865,
+            "sum_accumulated_times_ns": 580865,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 580865.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 580865.0,
             "accumulated_times": [
                 580865
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5186",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 22892,
+            "sum_accumulated_times_ns": 22892,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 22892.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 22892.0,
             "accumulated_times": [
                 22892
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5187",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 544858,
+            "sum_accumulated_times_ns": 544858,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 544858.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 544858.0,
             "accumulated_times": [
                 544858
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5187",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26189,
+            "sum_accumulated_times_ns": 26189,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26189.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26189.0,
             "accumulated_times": [
                 26189
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5189",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 565478,
+            "sum_accumulated_times_ns": 565478,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 565478.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 565478.0,
             "accumulated_times": [
                 565478
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5189",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 650329,
+            "sum_accumulated_times_ns": 650329,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 650329.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 650329.0,
             "accumulated_times": [
                 650329
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5188",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29305,
+            "sum_accumulated_times_ns": 29305,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29305.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29305.0,
             "accumulated_times": [
                 29305
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5191",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3361903,
+            "sum_accumulated_times_ns": 3361903,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3361903.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3361903.0,
             "accumulated_times": [
                 3361903
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5191",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 669806,
+            "sum_accumulated_times_ns": 669806,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 669806.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 669806.0,
             "accumulated_times": [
                 669806
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5190",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 31388,
+            "sum_accumulated_times_ns": 31388,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 31388.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 31388.0,
             "accumulated_times": [
                 31388
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5193",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3266679,
+            "sum_accumulated_times_ns": 3266679,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3266679.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3266679.0,
             "accumulated_times": [
                 3266679
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5193",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 706418,
+            "sum_accumulated_times_ns": 706418,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 706418.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 706418.0,
             "accumulated_times": [
                 706418
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5192",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26949,
+            "sum_accumulated_times_ns": 26949,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26949.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26949.0,
             "accumulated_times": [
                 26949
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5195",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3168657,
+            "sum_accumulated_times_ns": 3168657,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3168657.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3168657.0,
             "accumulated_times": [
                 3168657
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5195",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 620366,
+            "sum_accumulated_times_ns": 620366,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 620366.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 620366.0,
             "accumulated_times": [
                 620366
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5194",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29859,
+            "sum_accumulated_times_ns": 29859,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29859.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29859.0,
             "accumulated_times": [
                 29859
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5197",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3122474,
+            "sum_accumulated_times_ns": 3122474,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3122474.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3122474.0,
             "accumulated_times": [
                 3122474
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5197",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 594453,
+            "sum_accumulated_times_ns": 594453,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 594453.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 594453.0,
             "accumulated_times": [
                 594453
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5196",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 30250,
+            "sum_accumulated_times_ns": 30250,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 30250.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 30250.0,
             "accumulated_times": [
                 30250
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5199",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3223257,
+            "sum_accumulated_times_ns": 3223257,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3223257.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3223257.0,
             "accumulated_times": [
                 3223257
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5199",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 616583,
+            "sum_accumulated_times_ns": 616583,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 616583.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 616583.0,
             "accumulated_times": [
                 616583
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5198",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 33898,
+            "sum_accumulated_times_ns": 33898,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 33898.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 33898.0,
             "accumulated_times": [
                 33898
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5201",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3236259,
+            "sum_accumulated_times_ns": 3236259,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3236259.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3236259.0,
             "accumulated_times": [
                 3236259
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5201",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 660715,
+            "sum_accumulated_times_ns": 660715,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 660715.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 660715.0,
             "accumulated_times": [
                 660715
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5200",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29878,
+            "sum_accumulated_times_ns": 29878,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29878.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29878.0,
             "accumulated_times": [
                 29878
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5203",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3196488,
+            "sum_accumulated_times_ns": 3196488,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3196488.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3196488.0,
             "accumulated_times": [
                 3196488
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5203",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 638266,
+            "sum_accumulated_times_ns": 638266,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 638266.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 638266.0,
             "accumulated_times": [
                 638266
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5202",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 30311,
+            "sum_accumulated_times_ns": 30311,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 30311.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 30311.0,
             "accumulated_times": [
                 30311
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5205",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3146569,
+            "sum_accumulated_times_ns": 3146569,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3146569.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3146569.0,
             "accumulated_times": [
                 3146569
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5205",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 648560,
+            "sum_accumulated_times_ns": 648560,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 648560.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 648560.0,
             "accumulated_times": [
                 648560
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5204",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26662,
+            "sum_accumulated_times_ns": 26662,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26662.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26662.0,
             "accumulated_times": [
                 26662
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5207",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3145743,
+            "sum_accumulated_times_ns": 3145743,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3145743.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3145743.0,
             "accumulated_times": [
                 3145743
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5207",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 582691,
+            "sum_accumulated_times_ns": 582691,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 582691.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 582691.0,
             "accumulated_times": [
                 582691
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5206",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37675,
+            "sum_accumulated_times_ns": 37675,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37675.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37675.0,
             "accumulated_times": [
                 37675
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5208",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 621627,
+            "sum_accumulated_times_ns": 621627,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 621627.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 621627.0,
             "accumulated_times": [
                 621627
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5208",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26165,
+            "sum_accumulated_times_ns": 26165,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26165.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26165.0,
             "accumulated_times": [
                 26165
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5209",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3023434,
+            "sum_accumulated_times_ns": 3023434,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3023434.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3023434.0,
             "accumulated_times": [
                 3023434
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5209",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 27302,
+            "sum_accumulated_times_ns": 27302,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 27302.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 27302.0,
             "accumulated_times": [
                 27302
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5211",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3139699,
+            "sum_accumulated_times_ns": 3139699,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3139699.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3139699.0,
             "accumulated_times": [
                 3139699
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5211",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 588964,
+            "sum_accumulated_times_ns": 588964,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 588964.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 588964.0,
             "accumulated_times": [
                 588964
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5210",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 27844,
+            "sum_accumulated_times_ns": 27844,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 27844.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 27844.0,
             "accumulated_times": [
                 27844
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5213",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3143275,
+            "sum_accumulated_times_ns": 3143275,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3143275.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3143275.0,
             "accumulated_times": [
                 3143275
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5213",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 574458,
+            "sum_accumulated_times_ns": 574458,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 574458.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 574458.0,
             "accumulated_times": [
                 574458
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5212",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 27447,
+            "sum_accumulated_times_ns": 27447,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 27447.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 27447.0,
             "accumulated_times": [
                 27447
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5215",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3065312,
+            "sum_accumulated_times_ns": 3065312,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3065312.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3065312.0,
             "accumulated_times": [
                 3065312
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5215",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 598009,
+            "sum_accumulated_times_ns": 598009,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 598009.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 598009.0,
             "accumulated_times": [
                 598009
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5214",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26704,
+            "sum_accumulated_times_ns": 26704,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26704.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26704.0,
             "accumulated_times": [
                 26704
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5217",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3134776,
+            "sum_accumulated_times_ns": 3134776,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3134776.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3134776.0,
             "accumulated_times": [
                 3134776
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5217",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 560809,
+            "sum_accumulated_times_ns": 560809,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 560809.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 560809.0,
             "accumulated_times": [
                 560809
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5216",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26335,
+            "sum_accumulated_times_ns": 26335,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26335.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26335.0,
             "accumulated_times": [
                 26335
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5219",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3087578,
+            "sum_accumulated_times_ns": 3087578,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3087578.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3087578.0,
             "accumulated_times": [
                 3087578
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5219",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 571988,
+            "sum_accumulated_times_ns": 571988,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 571988.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 571988.0,
             "accumulated_times": [
                 571988
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5218",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26826,
+            "sum_accumulated_times_ns": 26826,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26826.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26826.0,
             "accumulated_times": [
                 26826
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5221",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3054326,
+            "sum_accumulated_times_ns": 3054326,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3054326.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3054326.0,
             "accumulated_times": [
                 3054326
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5221",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 624951,
+            "sum_accumulated_times_ns": 624951,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 624951.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 624951.0,
             "accumulated_times": [
                 624951
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5220",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 25437,
+            "sum_accumulated_times_ns": 25437,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 25437.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 25437.0,
             "accumulated_times": [
                 25437
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5223",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3064008,
+            "sum_accumulated_times_ns": 3064008,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3064008.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3064008.0,
             "accumulated_times": [
                 3064008
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5223",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 575195,
+            "sum_accumulated_times_ns": 575195,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 575195.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 575195.0,
             "accumulated_times": [
                 575195
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5222",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 25690,
+            "sum_accumulated_times_ns": 25690,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 25690.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 25690.0,
             "accumulated_times": [
                 25690
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5225",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3064070,
+            "sum_accumulated_times_ns": 3064070,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3064070.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3064070.0,
             "accumulated_times": [
                 3064070
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5225",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 584197,
+            "sum_accumulated_times_ns": 584197,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 584197.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 584197.0,
             "accumulated_times": [
                 584197
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5224",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26653,
+            "sum_accumulated_times_ns": 26653,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26653.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26653.0,
             "accumulated_times": [
                 26653
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5227",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 3060369,
+            "sum_accumulated_times_ns": 3060369,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 3060369.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 3060369.0,
             "accumulated_times": [
                 3060369
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5227",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 568872,
+            "sum_accumulated_times_ns": 568872,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 568872.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 568872.0,
             "accumulated_times": [
                 568872
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5226",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 28741,
+            "sum_accumulated_times_ns": 28741,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 28741.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 28741.0,
             "accumulated_times": [
                 28741
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5229",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 534161,
+            "sum_accumulated_times_ns": 534161,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 534161.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 534161.0,
             "accumulated_times": [
                 534161
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5229",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 623845,
+            "sum_accumulated_times_ns": 623845,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 623845.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 623845.0,
             "accumulated_times": [
                 623845
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5228",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 41647,
+            "sum_accumulated_times_ns": 41647,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 41647.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 41647.0,
             "accumulated_times": [
                 41647
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5230",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 625676,
+            "sum_accumulated_times_ns": 625676,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 625676.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 625676.0,
             "accumulated_times": [
                 625676
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5230",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 26325,
+            "sum_accumulated_times_ns": 26325,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 26325.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 26325.0,
             "accumulated_times": [
                 26325
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5231",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 575635,
+            "sum_accumulated_times_ns": 575635,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 575635.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 575635.0,
             "accumulated_times": [
                 575635
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5231",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 37313,
+            "sum_accumulated_times_ns": 37313,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 37313.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 37313.0,
             "accumulated_times": [
                 37313
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5232",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 556112,
+            "sum_accumulated_times_ns": 556112,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 556112.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 556112.0,
             "accumulated_times": [
                 556112
             ],
+            "time_per_occurrence": [
+                "N/A"
+            ],
             "source": "T_5232",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 23478,
+            "sum_accumulated_times_ns": 23478,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 23478.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 23478.0,
             "accumulated_times": [
                 23478
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5233",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 799671,
+            "sum_accumulated_times_ns": 799671,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 799671.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 799671.0,
             "accumulated_times": [
                 799671
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5233",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 131858,
+            "sum_accumulated_times_ns": 131858,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 131858.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 131858.0,
             "accumulated_times": [
                 131858
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5233",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 71739,
+            "sum_accumulated_times_ns": 71739,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 71739.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 71739.0,
             "accumulated_times": [
                 71739
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5234",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 697691,
+            "sum_accumulated_times_ns": 697691,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 697691.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 697691.0,
             "accumulated_times": [
                 697691
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5234",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 24368,
+            "sum_accumulated_times_ns": 24368,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 24368.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 24368.0,
             "accumulated_times": [
                 24368
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_5236",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 57172437121,
+            "sum_accumulated_times_ns": 57172437121,
             "edge_occurrence_count": 4,
-            "avg_edge_time_ns": 14293109280.25,
+            "avg_time_per_occurrence_ns": 284259643.3333333,
+            "avg_accumulated_edge_time_ns": 14293109280.25,
             "accumulated_times": [
                 13692921914,
                 14388909318,
                 14544905045,
                 14545700844
             ],
+            "time_per_occurrence": [
+                "N/A",
+                695987404,
+                155995727,
+                795799
+            ],
             "source": "T_5236",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 103229,
+            "sum_accumulated_times_ns": 103229,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 103229.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 103229.0,
             "accumulated_times": [
                 103229
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_1",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 67883,
+            "sum_accumulated_times_ns": 67883,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 67883.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 67883.0,
             "accumulated_times": [
                 67883
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_351",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 43596,
+            "sum_accumulated_times_ns": 43596,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 43596.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 43596.0,
             "accumulated_times": [
                 43596
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_351",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 71752,
+            "sum_accumulated_times_ns": 71752,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 71752.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 71752.0,
             "accumulated_times": [
                 71752
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_193",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1642002,
+            "sum_accumulated_times_ns": 1642002,
             "edge_occurrence_count": 4,
-            "avg_edge_time_ns": 410500.5,
+            "avg_time_per_occurrence_ns": 40066.333333333336,
+            "avg_accumulated_edge_time_ns": 410500.5,
             "accumulated_times": [
                 336633,
                 404709,
                 443828,
                 456832
             ],
+            "time_per_occurrence": [
+                "N/A",
+                68076,
+                39119,
+                13004
+            ],
             "source": "T_193",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 64035,
+            "sum_accumulated_times_ns": 64035,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 64035.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 64035.0,
             "accumulated_times": [
                 64035
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_508",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1070983,
+            "sum_accumulated_times_ns": 1070983,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 356994.3333333333,
+            "avg_time_per_occurrence_ns": 60884.0,
+            "avg_accumulated_edge_time_ns": 356994.3333333333,
             "accumulated_times": [
                 290208,
                 368799,
                 411976
+            ],
+            "time_per_occurrence": [
+                "N/A",
+                78591,
+                43177
             ],
             "source": "T_508",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 29607,
+            "sum_accumulated_times_ns": 29607,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 29607.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 29607.0,
             "accumulated_times": [
                 29607
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_466",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 7074595,
+            "sum_accumulated_times_ns": 7074595,
             "edge_occurrence_count": 7,
-            "avg_edge_time_ns": 1010656.4285714285,
+            "avg_time_per_occurrence_ns": 7017.833333333333,
+            "avg_accumulated_edge_time_ns": 1010656.4285714285,
             "accumulated_times": [
                 988088,
                 991494,
@@ -3485,53 +4294,81 @@
                 1026735,
                 1030195
             ],
+            "time_per_occurrence": [
+                "N/A",
+                3406,
+                3628,
+                24602,
+                3513,
+                3498,
+                3460
+            ],
             "source": "T_15322",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 645788,
+            "sum_accumulated_times_ns": 645788,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 215262.66666666666,
+            "avg_time_per_occurrence_ns": 27071.0,
+            "avg_accumulated_edge_time_ns": 215262.66666666666,
             "accumulated_times": [
                 182777,
                 226092,
                 236919
+            ],
+            "time_per_occurrence": [
+                "N/A",
+                43315,
+                10827
             ],
             "source": "T_507",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 738428,
+            "sum_accumulated_times_ns": 738428,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 246142.66666666666,
+            "avg_time_per_occurrence_ns": 29967.0,
+            "avg_accumulated_edge_time_ns": 246142.66666666666,
             "accumulated_times": [
                 224758,
                 228978,
                 284692
+            ],
+            "time_per_occurrence": [
+                "N/A",
+                4220,
+                55714
             ],
             "source": "T_154",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 384340,
+            "sum_accumulated_times_ns": 384340,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 128113.33333333333,
+            "avg_time_per_occurrence_ns": 9382.5,
+            "avg_accumulated_edge_time_ns": 128113.33333333333,
             "accumulated_times": [
                 117862,
                 129851,
                 136627
+            ],
+            "time_per_occurrence": [
+                "N/A",
+                11989,
+                6776
             ],
             "source": "T_154",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 940322,
+            "sum_accumulated_times_ns": 940322,
             "edge_occurrence_count": 5,
-            "avg_edge_time_ns": 188064.4,
+            "avg_time_per_occurrence_ns": 2330.5,
+            "avg_accumulated_edge_time_ns": 188064.4,
             "accumulated_times": [
                 183279,
                 185899,
@@ -3539,54 +4376,81 @@
                 190370,
                 192601
             ],
+            "time_per_occurrence": [
+                "N/A",
+                2620,
+                2274,
+                2197,
+                2231
+            ],
             "source": "T_129",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1066020,
+            "sum_accumulated_times_ns": 1066020,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 355340.0,
+            "avg_time_per_occurrence_ns": 5202.0,
+            "avg_accumulated_edge_time_ns": 355340.0,
             "accumulated_times": [
                 350972,
                 353672,
                 361376
+            ],
+            "time_per_occurrence": [
+                "N/A",
+                2700,
+                7704
             ],
             "source": "T_2559",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 1790001,
+            "sum_accumulated_times_ns": 1790001,
             "edge_occurrence_count": 4,
-            "avg_edge_time_ns": 447500.25,
+            "avg_time_per_occurrence_ns": 4202.333333333333,
+            "avg_accumulated_edge_time_ns": 447500.25,
             "accumulated_times": [
                 440875,
                 444380,
                 451264,
                 453482
             ],
+            "time_per_occurrence": [
+                "N/A",
+                3505,
+                6884,
+                2218
+            ],
             "source": "T_5096",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 726225,
+            "sum_accumulated_times_ns": 726225,
             "edge_occurrence_count": 3,
-            "avg_edge_time_ns": 242075.0,
+            "avg_time_per_occurrence_ns": 9102.5,
+            "avg_accumulated_edge_time_ns": 242075.0,
             "accumulated_times": [
                 234217,
                 239586,
                 252422
+            ],
+            "time_per_occurrence": [
+                "N/A",
+                5369,
+                12836
             ],
             "source": "T_11873",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 6448415,
+            "sum_accumulated_times_ns": 6448415,
             "edge_occurrence_count": 6,
-            "avg_edge_time_ns": 1074735.8333333333,
+            "avg_time_per_occurrence_ns": 37121.0,
+            "avg_accumulated_edge_time_ns": 1074735.8333333333,
             "accumulated_times": [
                 965603,
                 1001728,
@@ -3595,93 +4459,133 @@
                 1137041,
                 1151208
             ],
+            "time_per_occurrence": [
+                "N/A",
+                36125,
+                81370,
+                26639,
+                27304,
+                14167
+            ],
             "source": "T_510",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 117980,
+            "sum_accumulated_times_ns": 117980,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 117980.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 117980.0,
             "accumulated_times": [
                 117980
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_577",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 508243,
+            "sum_accumulated_times_ns": 508243,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 508243.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 508243.0,
             "accumulated_times": [
                 508243
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_3",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 20740,
+            "sum_accumulated_times_ns": 20740,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 20740.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 20740.0,
             "accumulated_times": [
                 20740
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_11",
             "target": "CPU_1"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 10360,
+            "sum_accumulated_times_ns": 10360,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 10360.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 10360.0,
             "accumulated_times": [
                 10360
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_16",
             "target": "CPU_2"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 10600,
+            "sum_accumulated_times_ns": 10600,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 10600.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 10600.0,
             "accumulated_times": [
                 10600
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_21",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 9687,
+            "sum_accumulated_times_ns": 9687,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 9687.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 9687.0,
             "accumulated_times": [
                 9687
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_10",
             "target": "CPU_0"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 156473,
+            "sum_accumulated_times_ns": 156473,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 156473.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 156473.0,
             "accumulated_times": [
                 156473
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_530",
             "target": "CPU_3"
         },
         {
             "relation": "used_cpu",
-            "total_edge_time_ns": 228525,
+            "sum_accumulated_times_ns": 228525,
             "edge_occurrence_count": 1,
-            "avg_edge_time_ns": 228525.0,
+            "avg_time_per_occurrence_ns": 0,
+            "avg_accumulated_edge_time_ns": 228525.0,
             "accumulated_times": [
                 228525
+            ],
+            "time_per_occurrence": [
+                "N/A"
             ],
             "source": "T_13",
             "target": "CPU_1"
