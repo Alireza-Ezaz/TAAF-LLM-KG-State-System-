@@ -64,3 +64,6 @@ Each question can be addressed by:
 4. Applying arithmetic operations (sum, max, average) on numeric attributes like `busy_time_ns`.
 
 These questions enable deep insights into CPU utilization, thread behavior, and system performance! 🚀
+
+
+Answer: The threads T_5125, T_5168, and T_5233 each ran on exactly three distinct CPUs.
