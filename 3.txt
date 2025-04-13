@@ -1,0 +1,625 @@
+Here are 35 additional True/False and 35 Multiple Choice questions based on your data:
+
+---
+
+### **True/False Questions (35):**
+
+1. True or False? CPU_0 has the highest number of unique threads compared to all other CPUs.
+   *(Answer: True - CPU_0 has 70 unique threads)*
+
+2. True or False? Thread 5236 has more total accumulated time on CPU_1 than CPU_2.
+   *(Answer: True - 14.5B ns vs. 24.3k ns)*
+
+3. True or False? Thread 5130 uses CPU_0 for less than 5 million nanoseconds.
+   *(Answer: True - 4.45M ns)*
+
+4. True or False? CPU_3 has a higher average busy time per thread than CPU_1.
+   *(Answer: True - 2.12B ns vs. 933M ns)*
+
+5. True or False? Thread 4740 uses CPU_0 exactly twice.
+   *(Answer: True - edge_occurrence_count=2)*
+
+6. True or False? Thread 5168 uses CPU_3.
+   *(Answer: False - only uses CPU_0/1/2)*
+
+7. True or False? Thread 15322 ran on CPU_0 seven times.
+   *(Answer: True - edge_occurrence_count=7)*
+
+8. True or False? CPU_2 has a total busy time greater than 100 billion nanoseconds.
+   *(Answer: True - 133.9B ns)*
+
+9. True or False? Thread 2559 primarily uses CPU_3.
+   *(Answer: True - sum=361k ns on CPU_3)*
+
+10. True or False? Thread 129 used CPU_2 exactly 5 times.
+    *(Answer: True - edge_occurrence_count=5)*
+
+11. True or False? Thread 508 has a higher accumulated time on CPU_2 than CPU_0.
+    *(Answer: True - 411k ns vs. 64k ns)*
+
+12. True or False? Thread 5130 uses all 4 CPUs in the system.
+    *(Answer: True - has edges to CPU_0/1/2/3)*
+
+13. True or False? CPU_1 has fewer total edge occurrences than CPU_3.
+    *(Answer: True - 68 vs. 79)*
+
+14. True or False? Thread 5234 uses CPU_1 more than CPU_2.
+    *(Answer: False - 69k ns vs. 697k ns)*
+
+15. True or False? Thread 5159 uses only CPU_1.
+    *(Answer: True - only linked to CPU_1)*
+
+16. True or False? Thread 5167 has a peak accumulated time >3M ns on CPU_2.
+    *(Answer: True - 3.08M ns)*
+
+17. True or False? Thread 5233 uses exactly 3 CPUs.
+    *(Answer: True - CPU_0/2/3)*
+
+18. True or False? Thread 2208 has a higher accumulated time on CPU_2 than CPU_3.
+    *(Answer: True - 3.92M ns vs. 314k ns)*
+
+19. True or False? Thread 5135 uses CPU_3 for more than 600k nanoseconds.
+    *(Answer: True - 649k ns)*
+
+20. True or False? Thread 5169 uses both CPU_0 and CPU_1.
+    *(Answer: True - linked to both)*
+
+21. True or False? Thread 5215 uses CPU_3 for over 3 million nanoseconds.
+    *(Answer: True - 3.06M ns)*
+
+22. True or False? Thread 5225 uses CPU_0 for more than 500k nanoseconds.
+    *(Answer: True - 584k ns)*
+
+23. True or False? Thread 5230 uses CPU_3 for less than 1 million nanoseconds.
+    *(Answer: False - 625k ns)*
+
+24. True or False? Thread 5131 uses CPU_1 for over 600k nanoseconds.
+    *(Answer: True - 605k ns)*
+
+25. True or False? Thread 5166 uses CPU_0 for more than 500k nanoseconds.
+    *(Answer: True - 580k ns)*
+
+26. True or False? Thread 5199 uses CPU_0 for over 3 million nanoseconds.
+    *(Answer: True - 3.22M ns)*
+
+27. True or False? Thread 5219 uses CPU_3 for less than 100k nanoseconds.
+    *(Answer: True - 26k ns)*
+
+28. True or False? Thread 5203 uses CPU_1 for over 3 million nanoseconds.
+    *(Answer: True - 3.19M ns)*
+
+29. True or False? Thread 5233 uses CPU_0 for more than 1 million nanoseconds.
+    *(Answer: False - 799k ns)*
+
+30. True or False? Thread 5145 has a peak accumulated time >3M ns on CPU_2.
+    *(Answer: True - 3.07M ns)*
+
+31. True or False? Thread 5153 uses CPU_0 for over 3 million nanoseconds.
+    *(Answer: True - 3.11M ns)*
+
+32. True or False? Thread 5175 uses CPU_2 for over 3 million nanoseconds.
+    *(Answer: True - 3.11M ns)*
+
+33. True or False? Thread 5187 uses CPU_1 for more than 500k nanoseconds.
+    *(Answer: True - 544k ns)*
+
+34. True or False? Thread 5227 uses CPU_2 for over 3 million nanoseconds.
+    *(Answer: True - 3.06M ns)*
+
+35. True or False? Thread 5149 uses CPU_0 for over 3 million nanoseconds.
+    *(Answer: True - 3.31M ns)*
+
+---
+
+### **Multiple Choice Questions (35):**
+
+1. Which CPU has the highest average busy time per thread?
+   (A) CPU_0
+   (B) CPU_1
+   (C) CPU_2
+   (D) CPU_3
+   *(Answer: C - 2.67B ns)*
+
+2. Thread 5168 does NOT use:
+   (A) CPU_0
+   (B) CPU_1
+   (C) CPU_2
+   (D) CPU_3
+   *(Answer: D)*
+
+3. Which thread has the highest edge occurrence count?
+   (A) T_0
+   (B) T_5130
+   (C) T_5236
+   (D) T_15322
+   *(Answer: A - T_0 has 16 occurrences on CPU_0)*
+
+4. How many threads have a peak accumulated time >1e6 ns on CPU_2?
+   (A) 10
+   (B) 15
+   (C) 20
+   (D) 25
+   *(Answer: B - Count threads like T_5130, T_5236, etc.)*
+
+5. Thread 5236 primarily uses:
+   (A) CPU_0
+   (B) CPU_1
+   (C) CPU_2
+   (D) All equally
+   *(Answer: B - 14.5B ns on CPU_1)*
+
+6. Which CPU has the lowest total busy time?
+   (A) CPU_0
+   (B) CPU_1
+   (C) CPU_2
+   (D) CPU_3
+   *(Answer: B - 57.8B ns)*
+
+7. Thread 5159 uses:
+   (A) Only CPU_0
+   (B) Only CPU_1
+   (C) Only CPU_2
+   (D) Multiple CPUs
+   *(Answer: B)*
+
+8. Which thread uses exactly three CPUs?
+   (A) T_5130
+   (B) T_5233
+   (C) T_5168
+   (D) T_4740
+   *(Answer: B - CPU_0/2/3)*
+
+9. Thread 5167 primarily uses:
+   (A) CPU_0
+   (B) CPU_1
+   (C) CPU_2
+   (D) CPU_3
+   *(Answer: C - 3.08M ns on CPU_2)*
+
+10. How many threads have run on CPU_1 more than once?
+    (A) 5
+    (B) 10
+    (C) 15
+    (D) 20
+    *(Answer: B - Count threads with edge_occurrence_count>1)*
+
+11. Thread 5234 uses which CPU the most?
+    (A) CPU_1
+    (B) CPU_2
+    (C) CPU_3
+    (D) None
+    *(Answer: B - 697k ns on CPU_2)*
+
+12. Which CPU has the highest total edge occurrences?
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: A - 100 occurrences)*
+
+13. Thread 5096 uses CPU_1 how many times?
+    (A) 1
+    (B) 2
+    (C) 3
+    (D) 4
+    *(Answer: D - edge_occurrence_count=4)*
+
+14. Which thread uses both CPU_0 and CPU_3?
+    (A) T_5130
+    (B) T_5236
+    (C) T_5168
+    (D) T_5149
+    *(Answer: A)*
+
+15. The thread with ID 5168 uses:
+    (A) CPU_0 and CPU_1
+    (B) CPU_1 and CPU_2
+    (C) CPU_0 and CPU_2
+    (D) CPU_1 and CPU_3
+    *(Answer: A - uses 0/1/2 but not 3)*
+
+16. Which CPU has the lowest number of unique threads?
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: C - 50 unique threads)*
+
+17. Thread 5219 primarily uses:
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: A - 3.08M ns on CPU_0)*
+
+18. How many threads have a peak accumulated time >1e7 ns on CPU_1?
+    (A) 5
+    (B) 10
+    (C) 15
+    (D) 20
+    *(Answer: B - Count threads like T_5159, T_5236, etc.)*
+
+19. Thread 5184 uses which CPU?
+    (A) CPU_2
+    (B) CPU_3
+    (C) Both A and B
+    (D) None
+    *(Answer: C - uses CPU_2 and CPU_3)*
+
+20. The thread with the longest individual runtime on a CPU is:
+    (A) T_5236
+    (B) T_4740
+    (C) T_0
+    (D) T_5130
+    *(Answer: A - 14.5B ns on CPU_1)*
+
+21. Thread 5130’s total accumulated time across all CPUs is closest to:
+    (A) 1M ns
+    (B) 5M ns
+    (C) 10M ns
+    (D) 20M ns
+    *(Answer: B - ~5.6M ns total)*
+
+22. Which thread does NOT use CPU_3?
+    (A) T_5159
+    (B) T_5168
+    (C) T_5236
+    (D) T_5130
+    *(Answer: B - T_5168 uses 0/1/2)*
+
+23. Thread 5233’s peak accumulated time is on:
+    (A) CPU_0
+    (B) CPU_2
+    (C) CPU_3
+    (D) CPU_1
+    *(Answer: B - 799k ns on CPU_2)*
+
+24. Which CPU has the lowest average busy time per thread?
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: B - 933M ns)*
+
+25. Thread 5147 primarily uses:
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: A - 3.27M ns on CPU_0)*
+
+26. How many threads have run on CPU_3 more than once?
+    (A) 5
+    (B) 10
+    (C) 15
+    (D) 20
+    *(Answer: B - Count threads with edge_occurrence_count>1)*
+
+27. Thread 5209 primarily uses:
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: D - 3.02M ns on CPU_3)*
+
+28. The thread with ID 5130 uses which CPU the least?
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: A - 4.45M ns vs. higher on others)*
+
+29. Which thread uses exactly two CPUs?
+    (A) T_5130
+    (B) T_5233
+    (C) T_5168
+    (D) T_5159
+    *(Answer: D - T_5159 uses only CPU_1)*
+
+30. Thread 5143 primarily uses:
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: B - 3.49M ns on CPU_1)*
+
+31. The thread with the highest number of edge occurrences is:
+    (A) T_0
+    (B) T_5236
+    (C) T_15322
+    (D) T_193
+    *(Answer: A - 16 occurrences on CPU_0)*
+
+32. Thread 5165 primarily uses:
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: A - 3.14M ns on CPU_0)*
+
+33. How many threads have a peak accumulated time >1e8 ns on CPU_0?
+    (A) 5
+    (B) 10
+    (C) 15
+    (D) 20
+    *(Answer: B - Count threads like T_2186, T_5236, etc.)*
+
+34. Thread 5221 primarily uses:
+    (A) CPU_0
+    (B) CPU_1
+    (C) CPU_2
+    (D) CPU_3
+    *(Answer: C - 3.05M ns on CPU_2)*
+
+35. Which thread uses all four CPUs?
+    (A) T_5130
+    (B) T_5233
+    (C) T_5168
+    (D) T_4740
+    *(Answer: A - T_5130 uses 0/1/2/3)*
+
+---
+
+These questions cover thread-CPU relationships, accumulated times, counts, and comparisons. Adjust thresholds or thread IDs as needed for further variety!
+
+Below is a combined list of additional questions you can use with your CPU usage graph data. In the “True/False” section, each question is stated as a claim (to be answered simply as true or false). In the “Multiple Choice” section each question offers four options (labeled A–D).
+
+Feel free to tweak wording or adjust the specific thread/CPU identifiers if needed based on your data details.
+
+---
+
+### Additional True/False Questions (35)
+
+1. True or False: CPU_0’s total busy time (busy_time_ns) is greater than that of CPU_1.
+2. True or False: CPU_2 has a higher average busy time per thread than CPU_3.
+3. True or False: The number of unique threads on CPU_0 exceeds the number of unique threads on CPU_1.
+4. True or False: All CPUs have an equal number of edge occurrences.
+5. True or False: The average busy time per thread for CPU_1 is below 1e9 ns.
+6. True or False: There is at least one thread that has run on all available CPUs.
+7. True or False: Thread T_0 has used more than one CPU.
+8. True or False: The accumulated CPU time for Thread 5130 on CPU_3 is lower than that on CPU_0.
+9. True or False: CPU_2’s total busy time is more than twice that of CPU_1.
+10. True or False: The average busy time per thread is highest on CPU_0.
+11. True or False: Every CPU has at least one thread that used it only once.
+12. True or False: There exists a thread that runs exclusively on one CPU.
+13. True or False: The system has at least four distinct CPUs.
+14. True or False: At least one thread’s individual activation on a CPU exceeds the average busy time per thread for that CPU.
+15. True or False: Thread T_4740 has used CPU_3 more than once.
+16. True or False: Thread T_15322 has activity on CPU_0.
+17. True or False: The peak accumulated time for a thread is achieved on CPU_0.
+18. True or False: More unique threads run on CPU_1 than on CPU_2.
+19. True or False: There is a thread with a peak accumulated time above 1e8 ns on at least one CPU.
+20. True or False: The standard deviation computed over busy times across all CPUs (converted to seconds) is a non-zero value.
+21. True or False: Thread T_5096’s usage on CPU_1 occurs more than once.
+22. True or False: The average busy time per thread on CPU_3 is below 2.2e9 ns.
+23. True or False: CPU_0 has the highest number of unique threads among all CPUs.
+24. True or False: There is a thread with an accumulated runtime on a CPU that is equal to its individual maximum runtime.
+25. True or False: The total number of distinct threads across CPUs exceeds 100.
+26. True or False: CPU_2 records a lower total edge occurrence count than CPU_0.
+27. True or False: At least one thread has a consistent average time per occurrence across all its CPU activations.
+28. True or False: Thread T_2559 is active on at least two different CPUs.
+29. True or False: More than half of the system’s CPUs have an average busy time per thread higher than 2e9 ns.
+30. True or False: At least one thread reaches a peak accumulated time greater than 1e7 ns on CPU_1.
+31. True or False: CPU_1 has a lower total busy time than CPU_3.
+32. True or False: The variance in CPU busy times across the system is significant.
+33. True or False: A thread that uses CPU_0 always has a higher accumulated time on that CPU compared to those using CPU_3.
+34. True or False: The busiest CPU (in terms of busy_time_ns) also runs the highest number of unique threads.
+35. True or False: There is no thread that has exclusively run on CPUs with an ID lower than 2.
+
+---
+
+### Additional Multiple Choice Questions (35)
+
+1. Which CPU has the highest total busy_time_ns?
+   - A. CPU_0
+   - B. CPU_1
+   - C. CPU_2
+   - D. CPU_3
+
+2. Which CPU records the highest average busy time per thread?
+   - A. CPU_0
+   - B. CPU_1
+   - C. CPU_2
+   - D. CPU_3
+
+3. Which CPU has the greatest number of unique threads?
+   - A. CPU_0
+   - B. CPU_1
+   - C. CPU_2
+   - D. CPU_3
+
+4. Which thread among the following is most likely to have run on more than one CPU?
+   - A. T_0
+   - B. T_5130
+   - C. T_4740
+   - D. T_15322
+
+5. Which option best describes the relation between CPU_1 and Thread T_5130?
+   - A. T_5130 has the highest accumulated time on CPU_1
+   - B. T_5130 only ran on CPU_1
+   - C. T_5130 has a shorter accumulated time on CPU_1 compared to CPU_0
+   - D. T_5130 did not run on CPU_1
+
+6. Which thread is most likely to have the longest individual runtime on a CPU activation?
+   - A. T_4740
+   - B. T_5124
+   - C. T_5130
+   - D. T_5096
+
+7. What is the most likely primary CPU for thread T_2559 based on its accumulated usage?
+   - A. CPU_0
+   - B. CPU_1
+   - C. CPU_2
+   - D. CPU_3
+
+8. Which CPU would you select if you want the highest average usage per thread?
+   - A. CPU_0
+   - B. CPU_1
+   - C. CPU_2
+   - D. CPU_3
+
+9. Considering all CPUs, which one has the highest total number of edge occurrences?
+   - A. CPU_0
+   - B. CPU_1
+   - C. CPU_2
+   - D. CPU_3
+
+10. Which thread has a significant accumulated time on CPU_3?
+    - A. T_5130
+    - B. T_4740
+    - C. T_5124
+    - D. T_5096
+
+11. Which CPU has the lowest busy_time_ns?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+12. Which thread is most likely to be used exclusively on a single CPU?
+    - A. T_0
+    - B. T_17
+    - C. T_4740
+    - D. T_129
+
+13. Which measurement would best indicate repeated CPU usage by a thread?
+    - A. Total busy_time_ns
+    - B. Edge_occurrence_count
+    - C. Avg_busy_time_per_thread_ns
+    - D. Num_unique_threads
+
+14. Which CPU would you expect to have the highest standard deviation in busy times (when converted to seconds)?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+15. If you needed to find a thread that rarely switches CPUs, which parameter would you check?
+    - A. Total_edge_occurrences
+    - B. Number of distinct CPUs used
+    - C. Avg_accumulated_edge_time_ns
+    - D. Sum_accumulated_times_ns
+
+16. Which CPU is likely to have the most stable average CPU time per thread?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+17. Which CPU likely has a more balanced distribution of thread usage?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+18. When comparing CPU_0 and CPU_2, which metric is higher for CPU_0?
+    - A. Num_unique_threads
+    - B. Total busy_time_ns
+    - C. Avg_busy_time_per_thread_ns
+    - D. Edge_occurrence_count
+
+19. Which thread would most likely be considered “heavy-duty” if its peak accumulated time is very high?
+    - A. T_5130
+    - B. T_5124
+    - C. T_4740
+    - D. T_5096
+
+20. Which option is the best indicator of how often a thread used a given CPU?
+    - A. Sum_accumulated_times_ns
+    - B. Edge_occurrence_count
+    - C. Avg_time_per_occurrence_ns
+    - D. Accumulated_times list length
+
+21. Which thread is most likely to have a high peak accumulated time across all CPUs?
+    - A. T_5130
+    - B. T_5124
+    - C. T_4740
+    - D. T_129
+
+22. How would you identify a thread that uses exactly two CPUs?
+    - A. By checking its list of target CPUs
+    - B. By examining its sum_accumulated_times_ns on one CPU
+    - C. By comparing busy_time_ns values only
+    - D. By checking its edge_occurrence_count
+
+23. Which factor would you use to determine the “wideness” of a thread’s runtime range?
+    - A. The difference between its maximum and minimum edge times
+    - B. Its total busy_time_ns
+    - C. Its avg_busy_time_per_thread_ns
+    - D. The number of CPUs it touches
+
+24. Which CPU is likely used by Thread T_15322, given typical patterns in the data?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+25. Which CPU would you infer to be the most “busy” from an overall system standpoint?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+26. Which thread is most likely to not be present in the system if the data shows no occurrences?
+    - A. T_4849
+    - B. T_2559
+    - C. T_15322
+    - D. T_4740
+
+27. Which option is best to measure how uniformly CPU resources are allocated?
+    - A. Avg_busy_time_per_thread_ns
+    - B. Total_edge_occurrences across all CPUs
+    - C. Num_unique_threads per CPU
+    - D. Sum_accumulated_times_ns per CPU
+
+28. Which CPU’s usage would you expect to have the highest fluctuation among its threads?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+29. If a thread uses multiple CPUs, which metric best captures its total usage?
+    - A. Sum of its accumulated_times across CPUs
+    - B. Its maximum single accumulated_time
+    - C. Its avg_time_per_occurrence_ns
+    - D. Its edge_occurrence_count on one CPU
+
+30. Which of the following best describes a thread that “rarely” uses a CPU?
+    - A. Low edge_occurrence_count
+    - B. Low total busy_time_ns
+    - C. High number of unique CPU targets
+    - D. High avg_time_per_occurrence_ns
+
+31. Which CPU appears to have the greatest difference between its highest and lowest accumulated times among threads?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+32. Which thread is most likely to have a notably small time per occurrence on CPU_2?
+    - A. T_5130
+    - B. T_17
+    - C. T_4740
+    - D. T_5125
+
+33. When comparing CPU usage patterns, which metric would indicate a CPU with consistent thread load?
+    - A. Low standard deviation of busy times
+    - B. High total busy_time_ns
+    - C. High number of unique threads
+    - D. High avg_busy_time_per_thread_ns
+
+34. Which statement best describes the relationship between edge_occurrence_count and reliability of the average time measurement?
+    - A. Higher edge_occurrence_count gives a more reliable avg_time
+    - B. Lower edge_occurrence_count gives a more reliable avg_time
+    - C. They are independent metrics
+    - D. The relationship depends only on the CPU’s busy_time_ns
+
+35. Which CPU would be the best candidate to analyze if you want to study thread activity diversity?
+    - A. CPU_0
+    - B. CPU_1
+    - C. CPU_2
+    - D. CPU_3
+
+---
+
+These additional questions mix variations of comparison, usage patterns, and parameter relationships from your dataset. You can further customize identifiers (like thread IDs or specific CPU labels) to align exactly with your dataset’s numbers and trends.
