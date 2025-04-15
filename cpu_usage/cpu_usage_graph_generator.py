@@ -8,9 +8,9 @@ from networkx.readwrite import json_graph
 # CONFIGURATION / OPTIONS
 # =============================================================================
 # Name of the input file containing the CPU usage analysis output.
-input_filename = "cpu_usage_input.txt"
+input_filename = "mid-100s.txt"
 # Name of the output JSON file where the graph will be saved.
-output_filename = "cpu_usage_graph.json"
+output_filename = "mid-100s.json"
 
 # =============================================================================
 # STEP 0: READ INPUT FROM TXT FILE
