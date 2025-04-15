@@ -118,7 +118,7 @@ Here are 35 additional True/False and 35 Multiple Choice questions based on your
    (B) CPU_1
    (C) CPU_2
    (D) CPU_3
-   *(Answer: C - 2.67B ns)*
+
 
 2. Thread 5168 does NOT use:
    (A) CPU_0
@@ -127,7 +127,7 @@ Here are 35 additional True/False and 35 Multiple Choice questions based on your
    (D) CPU_3
    *(Answer: D)*
 
-3. Which thread has the highest edge occurrence count?
+3. Among the following thread, Which thread has the highest edge occurrence (Number of Occurance on a specidic cpu) count?
    (A) T_0
    (B) T_5130
    (C) T_5236
@@ -135,11 +135,11 @@ Here are 35 additional True/False and 35 Multiple Choice questions based on your
    *(Answer: A - T_0 has 16 occurrences on CPU_0)*
 
 4. How many threads have a peak accumulated time >1e6 ns on CPU_2?
-   (A) 10
-   (B) 15
-   (C) 20
-   (D) 25
-   *(Answer: B - Count threads like T_5130, T_5236, etc.)*
+   (A) 13
+   (B) 23
+   (C) 45
+   (D) 5
+   *(Answer: A - Count threads like T_5130, T_5236, etc.)*
 
 5. Thread 5236 primarily uses:
    (A) CPU_0
@@ -165,8 +165,8 @@ Here are 35 additional True/False and 35 Multiple Choice questions based on your
 8. Which thread uses exactly three CPUs?
    (A) T_5130
    (B) T_5233
-   (C) T_5168
-   (D) T_4740
+   (C) T_5160
+   (D) T_4741
    *(Answer: B - CPU_0/2/3)*
 
 9. Thread 5167 primarily uses:
