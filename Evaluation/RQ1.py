@@ -43,8 +43,8 @@ df['P0.5_graph'] = df['0.5s_graph'] / 300 * 100
 df['P1_graph'] = df['1s_graph'] / 300 * 100
 
 # Color mappings
-color_map_no_graph = {'0': '#d73027', '0.5': '#fee08b', '1': '#1a9850'}
-color_map_with_graph = {'0': '#fc8d59', '0.5': '#fff7bc', '1': '#91cf60'}
+color_map_with_graph = {'0': '#d73027', '0.5': '#fee08b', '1': '#1a9850'}
+color_map_no_graph = {'0': '#fc8d59', '0.5': '#fff7bc', '1': '#91cf60'}
 
 # Prepare labels
 labels = df['Label']
@@ -64,7 +64,7 @@ ax.set_ylabel('Accuracy Gain (%)')
 ax.set_title('Improvement in Accuracy with Knowledge Graph')
 
 for i, v in enumerate(df['Accuracy_Improvement (%)']):
-    ax.text(x[i], v + 0.5, f"+{v:.1f}%", ha='center', fontsize=9)
+    ax.text(x[i], v + 0.5, f"+{v:.2f}%", ha='center', fontsize=9)
 
 ax.grid(True, axis='y')
 plt.tight_layout()
@@ -72,19 +72,20 @@ plt.show()
 # -------------------- PLOT 2: Reversed Stacked Score Breakdown --------------------
 
 fig, ax = plt.subplots(figsize=(14, 8))
+width2 = 0.45  # up from 0.35
 
 # No Graph bars (bottom = correct answers, top = wrong answers)
 bottom = np.zeros(len(labels))
 for score in ['1', '0.5', '0']:  # Reverse stacking: 1 on bottom
     heights = df[f'P{score}_no_graph']
-    bars = ax.bar(x - width/2, heights, width,
+    bars = ax.bar(x - width2/2, heights, width2,
                   bottom=bottom, label=f'No Graph - Score {score}',
                   color=color_map_no_graph[score], edgecolor='black')
     for idx, rect in enumerate(bars):
         h = rect.get_height()
         if h > 3:
             ax.text(rect.get_x() + rect.get_width()/2,
-                    rect.get_y() + h/2, f"{h:.0f}%",
+                    rect.get_y() + h/2, f"{h:.2f}%",
                     ha='center', va='center', fontsize=9)
     bottom += heights
 
@@ -92,14 +93,14 @@ for score in ['1', '0.5', '0']:  # Reverse stacking: 1 on bottom
 bottom = np.zeros(len(labels))
 for score in ['1', '0.5', '0']:
     heights = df[f'P{score}_graph']
-    bars = ax.bar(x + width/2, heights, width,
+    bars = ax.bar(x + width2/2, heights, width2,
                   bottom=bottom, label=f'With Graph - Score {score}',
                   color=color_map_with_graph[score], edgecolor='black')
     for idx, rect in enumerate(bars):
         h = rect.get_height()
         if h > 3:
             ax.text(rect.get_x() + rect.get_width()/2,
-                    rect.get_y() + h/2, f"{h:.0f}%",
+                    rect.get_y() + h/2, f"{h:.2f}%",
                     ha='center', va='center', fontsize=9)
     bottom += heights
 
