@@ -4,7 +4,7 @@ import json
 def sort_threads_by_cpu_last_accumulated(cpu_number):
     # Load data from file
     try:
-        with open('../cpu_usage/cpu_usage_graph.json', 'r') as f:
+        with open('../cpu_usage/mid-10s.json', 'r') as f:
             data = json.load(f)
     except FileNotFoundError:
         print("Error: cpu_usage_graph.json file not found.")
