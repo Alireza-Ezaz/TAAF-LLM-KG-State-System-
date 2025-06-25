@@ -58,6 +58,8 @@ for x, y in zip(df['Temperature'], df['Accuracy (%)']):
     ax1.text(x, y + 0.5, f"{y:.2f}%", ha='center', fontsize=9)
 
 plt.tight_layout()
+# Save as vector PDF
+# plt.savefig("../Result Pictures/RQ7.pdf", format="pdf")
 plt.show()
 
 

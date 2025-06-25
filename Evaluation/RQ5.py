@@ -55,9 +55,9 @@ sns.heatmap(
     cmap=sns.light_palette("blue", as_cmap=True),
     cbar_kws={'label': 'Accuracy (%)'}
 )
-axes[0].set_title("Accuracy by Query & Graph (No KG)")
-axes[0].set_xlabel("Graph Structure")
-axes[0].set_ylabel("Query Type")
+axes[0].set_title("Accuracy by User & Graph Question Type (baseline - No KG)")
+axes[0].set_xlabel("Graph Question Type")
+axes[0].set_ylabel("User Question Type")
 
 # Heatmap: WITH KG
 sns.heatmap(
@@ -66,9 +66,10 @@ sns.heatmap(
     cmap=sns.light_palette("blue", as_cmap=True),
     cbar_kws={'label': 'Accuracy (%)'}
 )
-axes[1].set_title("Accuracy by Query & Graph (With KG)")
-axes[1].set_xlabel("Graph Structure")
-axes[1].set_ylabel("")
+axes[1].set_title("Accuracy by User & Graph Question Type (TAAF - With KG)")
+axes[1].set_xlabel("Graph Question Type")
+axes[1].set_ylabel("User Question Type")
 
 plt.tight_layout()
+# plt.savefig("../Result Pictures/RQ5-1.pdf", format="pdf")  # Save as vector PDF
 plt.show()

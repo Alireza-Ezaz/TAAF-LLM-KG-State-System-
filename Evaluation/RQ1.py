@@ -68,6 +68,7 @@ for i, v in enumerate(df['Accuracy_Improvement (%)']):
 
 ax.grid(True, axis='y')
 plt.tight_layout()
+# plt.savefig("../Result Pictures/RQ1-1.pdf", format="pdf")  # Save as vector PDF
 plt.show()
 # -------------------- PLOT 2: Reversed Stacked Score Breakdown --------------------
 
@@ -111,4 +112,5 @@ ax.set_xticklabels(labels, rotation=45)
 ax.legend(title='Score and Condition', loc='upper left', bbox_to_anchor=(1, 1))
 ax.grid(True, axis='y')
 plt.tight_layout()
+# plt.savefig("../Result Pictures/RQ1-2.pdf", format="pdf")  # Save as vector PDF
 plt.show()

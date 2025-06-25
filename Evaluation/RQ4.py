@@ -60,5 +60,6 @@ plt.ylabel("Accuracy (%)")
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.legend(title="Model + KG Condition", bbox_to_anchor=(1.02, 1), loc="upper left")
 plt.tight_layout()
+# plt.savefig("../Result Pictures/RQ4.pdf", format="pdf")  # Save as vector PDF
 plt.show()
 
