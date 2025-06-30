@@ -6,6 +6,7 @@ The **Trace Abstraction and Analysis Framework (TAAF)** turns massive, low-level
 * **Knowledge Graph (KG)** – A query-specific, JSON graph distilled from the State System slice and enriched with structure and metrics.
 * **Large Language Model (LLM)** – A reasoning model that reads the KG and returns a natural-language explanation grounded in trace facts.
 ![Import trace](extra_documents/TAAF.png)
+* 
 This replication package shows how to reproduce every step of the TAAF workflow:
 
 1. **Import traces & build the State System** – Load raw LTTng or Perfetto files into Eclipse Trace Compass and construct a State System that indexes all events by time.
@@ -76,34 +77,66 @@ taaf-replication-package/
 * Google account for Colab
 * OpenAI API key saved as `OPENAI_API_KEY`
 
-## Step 1  Import trace data and build the State System
+## Step 1  Import trace data and build the State System
 
 1. **Install Trace Compass**
 
-   * Launch Eclipse
-   * Help ➔ Install New Software ➔ Add ➔
-     `https://download.eclipse.org/tracecompass/releases/latest/repository`
-     Select *Trace Compass* feature and finish the wizard. ([archive.eclipse.org][2], [marketplace.eclipse.org][3])
-2. **Create an analysis project**
+   * Visit [https://eclipse.dev/tracecompass/](https://eclipse.dev/tracecompass/) and follow the platform-specific instructions.
+   * After installation Trace Compass starts with its default workspace.
+   * *Placeholder*
+     ![Trace Compass welcome](extra_documents/readme_figures/welcome.png)
 
-   * File ➔ New ➔ Project ➔ Trace Compass Project
-3. **Import a raw trace**
+2. **Enable scripting add-ons**
 
-   * Right-click the project ➔ Import Trace
-   * Choose `data/raw_traces/<your_trace>`
-   * Wait until the progress bar shows *State System built*.
-   * Screenshot placeholder
-     `![Import trace](docs/screenshots/step1_import.png)`
-4. **Run the EASE script**
+   * Top menu → *Tools* → *Add-ons*.
+   * Check the following items then press *Apply and Restart*:
 
-   * Window ➔ Show View ➔ Scripting
-   * In the script view open `scripts/cpu_usage_extractor.py` (sample provided)
-   * Press *Run* to dump intervals to console
-   * Copy console output into `data/cpu_usage/cpu_usage_input.txt`
-   * Screenshot placeholder
-     `![Run EASE](docs/screenshots/step1_ease.png)`
+     * Trace Compass Scripting (Incubation)
+     * Trace Compass Scripting Javascript (Incubation)
+     * Trace Compass Scripting Python (Incubation)
+   * These add-ons let us query the State System interactively.
+   *![Trace Compass welcome](extra_documents/readme_figures/addons.png)
 
-EASE extends Eclipse with live Python scripting which makes this dump one click. ([wiki.eclipse.org][4], [wiki.eclipse.org][5])
+3. **Create a tracing project**
+
+   * Left navigator → right-click → *New* → *Tracing Project*.
+   * Enter the name **TAAF** and finish.
+   * ![New project](extra_documents/readme_figures/create_project.png)
+
+4. **Import the raw trace**
+
+   * In the **TAAF** project open the *Traces \[0]* folder.
+   * Right-click → *Import Trace*.
+   * Select `raw_trace_data/scimark2-all-events-run0/kernel` then click *Finish*.
+   * Trace Compass parses events and builds the State System automatically.
+   * Double-click the trace to open it in the main view.
+   * ![Import trace](extra_documents/readme_figures/import1.png)
+   * ![Import trace](extra_documents/readme_figures/import2.png)
+   
+
+5. **Open State System Explorer**
+
+   * Top menu → *Window* → *Show View* → *State System Explorer*.
+   * This view lets you inspect attributes, quarks and intervals.
+   * ![State System Explorer](extra_documents/readme_figures/state_system.png)
+
+6. **Run the EASE script**
+
+   * Copy the entire `ease_scripts/` folder into the **TAAF** project.
+   * In the navigator right-click `query2d.js` → *Run As* → *EASE Script*.
+   * The script prints thread–CPU intervals for the chosen time window to the *Console* view.
+   * *Placeholder*
+     `![Run script](docs/screenshots/step1_ease.png)`
+
+7. **Save the console output**
+
+   * Select all console text, copy it, and paste into a new file inside
+     `cpu_usage/state_system_data/`.
+   * The repository already contains five ready-made slices
+     (`mid_1s.txt`, `mid_10s.txt`, `mid_100s.txt`, `start_10s.txt`, `end_10s.txt`)
+     produced with this method.
+
+You have now built the State System and extracted the numeric slice needed for the next step, Knowledge Graph construction.
 
 ## Step 2  Generate the knowledge graph
 
