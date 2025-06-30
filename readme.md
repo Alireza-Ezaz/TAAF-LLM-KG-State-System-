@@ -5,7 +5,7 @@ The **Trace Abstraction and Analysis Framework (TAAF)** turns massive, low-level
 * **State System** – Trace Compass’s time-indexed database that stores every CPU, thread, and value as efficiently searchable intervals.
 * **Knowledge Graph (KG)** – A query-specific, JSON graph distilled from the State System slice and enriched with structure and metrics.
 * **Large Language Model (LLM)** – A reasoning model that reads the KG and returns a natural-language explanation grounded in trace facts.
-
+`![Import trace](extra_documents/taaf_logo.png)`
 This replication package shows how to reproduce every step of the TAAF workflow:
 
 1. **Import traces & build the State System** – Load raw LTTng or Perfetto files into Eclipse Trace Compass and construct a State System that indexes all events by time.
