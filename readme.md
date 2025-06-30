@@ -71,7 +71,7 @@ taaf-replication-package/
 ## Prerequisites
 
 * JDK 11 or later
-* Eclipse IDE 2024-XX or newer
+* Eclipse Tracecompass
 * Trace Compass plug-ins (see next section)
 * Python 3.9+ with `pip install -r requirements.txt`
 * Google account for Colab
