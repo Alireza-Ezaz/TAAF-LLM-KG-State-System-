@@ -125,8 +125,7 @@ taaf-replication-package/
    * Copy the entire `ease_scripts/` folder into the **TAAF** project.
    * In the navigator right-click `query2d.js` → *Run As* → *EASE Script*.
    * The script prints thread–CPU intervals for the chosen time window to the *Console* view.
-   * *Placeholder*
-     `![Run script](docs/screenshots/step1_ease.png)`
+   * ![Run script](extra_documents/readme_figures/state_system_result.png)
 
 7. **Save the console output**
 
