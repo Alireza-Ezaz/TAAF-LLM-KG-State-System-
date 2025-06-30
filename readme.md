@@ -186,31 +186,60 @@ After this step you now hold **both**
 
 These pairs enable the next phase, where we evaluate the **baseline** configuration (LLM + State System) against the full **TAAF** stack (LLM + State System + KG) by asking trace-related questions and comparing the answers.
 
-## Step 4  Execute the Colab notebook
+## Step 3  Run the `taaf.ipynb` notebook
 
-1. Open **TAAF\_(LLM\_+*KG*+\_State\_Syst).ipynb** in Google Colab. Drag the file into Colab or open it from GitHub UI. ([youtube.com][7])
-2. Upload `cpu_usage_input.txt` and `cpu_usage_graph.json` to the Colab session or mount Google Drive. ([stackoverflow.com][8])
-3. Enter your OpenAI key in *Colab > Settings > Secrets* or run
+1. **Open the notebook**
 
-```python
-import os, getpass
-os.environ["OPENAI_API_KEY"] = getpass.getpass()
-```
+   * In Colab: File → Upload notebook → select `taaf.ipynb`
+   * Or click “Open in Colab” from the GitHub file view.
 
-4. Run the installation cell. It installs `openai` automatically. ([colab.research.google.com][9])
-5. In the main cell call
+2. **Install dependencies**
+   Run the first cell to install the OpenAI client:
 
-```python
-full_analysis("What is the total accumulated CPU time for thread 5130 on CPU 1?")
-```
+   ```python
+   !pip install -q openai
+   ```
 
-The notebook prints two answers. The second answer uses the KG. You can switch models or choose baseline mode by editing the arguments at the top of the notebook.
+3. **Provide your OpenAI key**
+   Colab shows a “Secrets” pane (🔒 icon) in the left sidebar.
 
-## Advanced notes
+   * Add a secret named `YOUR_API_KEY` with your OpenAI API key.
+   * The setup cell reads it via:
 
-* Developers can replicate Trace Compass builds by following the environment guide on GitHub. ([github.com][10])
-* Users who prefer older versions can install the plug-ins from the Stack Overflow instructions. ([stackoverflow.com][11])
+     ```python
+     from google.colab import userdata
+     client = OpenAI(api_key=userdata.get("YOUR_API_KEY"))
+     ```
 
+4. **Select your data slice and KG**
+   At the top of the notebook adjust these paths:
+
+   ```python
+   RAW_PATH = "cpu_usage/state_system_data/mid_10s.txt"
+   KG_PATH  = "cpu_usage/knowledge_graph_data/mid_10s.json"
+   ```
+
+   All five pre-computed slices (`mid_1s`, `mid_10s`, `mid_100s`, `start_10s`, `end_10s`) live under those folders.
+
+5. **Ask your question**
+   In the final cell, call:
+
+   ```python
+   full_analysis(
+       "What is the total accumulated CPU time for thread 5130 on CPU 1?",
+       kg_path=KG_PATH,
+       raw_path=RAW_PATH
+   )
+   ```
+
+   * By default this prints two answers side-by-side:
+     * **Baseline**: LLM reasoning over the State System raw data only.
+     * **TAAF**: LLM reasoning over the Knowledge Graph built from the State System slice.
+   * You can also change the `model=` argument to any OpenAI-compatible endpoint (e.g. `"gpt-4o"`, `"o4-mini"`).
+
+You’re all set—compare **baseline** vs. **TAAF** answers, swap slices or models, and explore your own trace questions!
+
+---
 ## Troubleshooting
 
 | Problem                    | Quick check                                                |
@@ -218,10 +247,6 @@ The notebook prints two answers. The second answer uses the KG. You can switch m
 | State System not building  | Trace file must be a valid CTF folder                      |
 | Colab cannot find `openai` | Re-run the first cell to reinstall                         |
 | Empty KG output            | Ensure the input text file is copied without extra headers |
-
-## License
-
-This replication package is distributed under the MIT License.
 
 ---
 
