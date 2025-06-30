@@ -81,10 +81,9 @@ taaf-replication-package/
 
 1. **Install Trace Compass**
 
-   * Visit [https://eclipse.dev/tracecompass/](https://eclipse.dev/tracecompass/) and follow the platform-specific instructions.
+   * Visit [https://eclipse.dev/tracecompass/](https://eclipse.dev/tracecompass/) and follow the platform-specific instructions to download Tracecompass.
    * After installation Trace Compass starts with its default workspace.
-   * *Placeholder*
-     ![Trace Compass welcome](extra_documents/readme_figures/welcome.png)
+   * ![Trace Compass welcome](extra_documents/readme_figures/welcome.png)
 
 2. **Enable scripting add-ons**
 
@@ -95,7 +94,7 @@ taaf-replication-package/
      * Trace Compass Scripting Javascript (Incubation)
      * Trace Compass Scripting Python (Incubation)
    * These add-ons let us query the State System interactively.
-   *![Trace Compass welcome](extra_documents/readme_figures/addons.png)
+   * ![Trace Compass welcome](extra_documents/readme_figures/addons.png)
 
 3. **Create a tracing project**
 
@@ -139,23 +138,53 @@ You have now built the State System and extracted the numeric slice needed for t
 
 ## Step 2  Generate the knowledge graph
 
-Inside `replication-package` run:
+Each State-System slice (`*.txt`) can be transformed into a compact, query-specific Knowledge Graph (`*.json`).
 
-```bash
-python scripts/cpu_usage_graph_generator.py \
-    --input data/cpu_usage/cpu_usage_input.txt \
-    --output data/cpu_usage/cpu_usage_graph.json
-```
+1. **Pick a slice**
+   Examples already included:
 
-The script parses each "CPU-Thread" interval, adds weighted edges, then writes a compact JSON graph. Parsing uses Python\`s built-in json module. ([colab.research.google.com][6])
+   | Slice           | Time window | Location        |
+   | --------------- | ----------- | --------------- |
+   | `mid_1s.txt`    | 1 s         | middle of trace |
+   | `mid_10s.txt`   | 10 s        | middle          |
+   | `mid_100s.txt`  | 100 s       | middle          |
+   | `start_10s.txt` | 10 s        | trace start     |
+   | `end_10s.txt`   | 10 s        | trace end       |
 
-## Step 3  Inspect the JSON
+2. **Run the generator**
 
-Open the file in any viewer or run:
+   ```bash
+   cd taaf-replication-package
+   python cpu_usage/cpu_usage_graph_generator.py \
+       --input  cpu_usage/state_system_data/mid_1s.txt \
+       --output cpu_usage/knowledge_graph_data/mid_1s.json
+   ```
 
-```bash
-python -m json.tool data/cpu_usage/cpu_usage_graph.json | head
-```
+   The script
+
+   * parses every “CPU ↔ Thread” interval,
+   * creates typed nodes and weighted edges,
+   * writes a minimal JSON Knowledge Graph ready for the LLM.
+
+   *(You can pass `--window`, `--start`, or `--end` flags to override defaults.)*
+
+3. **Verify or explore the output**
+
+   ```bash
+   python -m json.tool cpu_usage/knowledge_graph_data/mid_1s.json | head
+   ```
+
+   or open the file in any JSON viewer to see nodes, edges, and metrics.
+
+> **Quick start:** all five slices listed above are already processed; the corresponding JSON graphs live in `cpu_usage/knowledge_graph_data/`. Regenerate them only if you change the window or trace.
+
+---
+
+After this step you now hold **both**
+*raw State-System outputs* (`cpu_usage/state_system_data/*.txt`) **and**
+*their Knowledge Graphs* (`cpu_usage/knowledge_graph_data/*.json`).
+
+These pairs enable the next phase, where we evaluate the **baseline** configuration (LLM + State System) against the full **TAAF** stack (LLM + State System + KG) by asking trace-related questions and comparing the answers.
 
 ## Step 4  Execute the Colab notebook
 
@@ -195,8 +224,6 @@ The notebook prints two answers. The second answer uses the KG. You can switch m
 This replication package is distributed under the MIT License.
 
 ---
-
-Feel free to add further screenshots inside `docs/screenshots` and extend the question list in the notebook.
 
 [1]: https://eclipse.dev/tracecompass/?utm_source=chatgpt.com "Trace Compass - The Eclipse Foundation"
 [2]: https://archive.eclipse.org/tracecompass/doc/stable/org.eclipse.tracecompass.doc.user/Installation.html?utm_source=chatgpt.com "Trace Compass User Guide - Installation - Eclipse archive"
