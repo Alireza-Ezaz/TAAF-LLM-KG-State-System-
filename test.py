@@ -500,4 +500,4 @@ plt.show()
 # - You can further modify this code to compute incremental CPU time (by taking differences
 #   between successive accumulated values) if that is more meaningful for your analysis.
 #
-# Run this script in PyCharm on Linux. It uses standard matplotlib (plt.show()) to display the plot.
+# This script uses standard matplotlib (plt.show()) to display the plot.

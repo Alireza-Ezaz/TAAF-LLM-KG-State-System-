@@ -291,4 +291,4 @@ Questions were generated through a four-step, double-blind process. Two experts 
 The resulting set includes an even 40/30/30 split across the three answer types and a 50/50 split across hub scopes. Since each prompt is instantiated on nine distinct trace slices (3 temporal locations × 3 time-window lengths), the benchmark comprises 100 × 9 = 900 unique question–trace-segment pairs.
 
 **Access:**
-TraceQA-100, our benchmark for evaluation, is available anonymously at: [https://docs.google.com/spreadsheets/d/1s6DatBkugvsSXXeXwTJJBZxHd9PoTfok0t3vWm0_OMw/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1s6DatBkugvsSXXeXwTJJBZxHd9PoTfok0t3vWm0_OMw/edit?usp=sharing)
+TraceQA-100, our benchmark for evaluation, is available anonymously at: [ANONYMOUS_BENCHMARK_LINK]
