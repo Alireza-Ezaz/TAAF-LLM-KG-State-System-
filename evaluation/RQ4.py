@@ -33,7 +33,7 @@ color_palette = {
 }
 
 # -------------------- Plotting --------------------
-plt.figure(figsize=(13, 7))
+plt.figure(figsize=(13, 6))
 
 for model in df_rq3['Model'].unique():
     subset = df_rq3[df_rq3['Model'] == model]
@@ -60,6 +60,6 @@ plt.ylabel("Accuracy (%)")
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.legend(title="Model + KG Condition", bbox_to_anchor=(1.02, 1), loc="upper left")
 plt.tight_layout()
-# plt.savefig("../Result Pictures/RQ4.pdf", format="pdf")  # Save as vector PDF
+plt.savefig("../evaluation_outputs/RQ4.pdf", format="pdf")  # Save as vector PDF
 plt.show()
 

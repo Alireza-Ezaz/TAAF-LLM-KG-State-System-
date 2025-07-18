@@ -66,5 +66,5 @@ plt.ylabel("Query Type")
 plt.title("Knowledge-Graph Accuracy Gain per Query Type & Graph Structure")
 plt.legend(title="Graph Structure")
 plt.tight_layout()
-plt.savefig("../Result Pictures/RQ5-2.pdf", format="pdf")  # Save as vector PDF
+plt.savefig("../evaluation_outputs/RQ5-2.pdf", format="pdf")  # Save as vector PDF
 plt.show()

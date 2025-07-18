@@ -53,7 +53,7 @@ width = 0.35
 
 # -------------------- PLOT 1: Accuracy Improvement --------------------
 
-fig, ax = plt.subplots(figsize=(12, 6))
+fig, ax = plt.subplots(figsize=(12, 5))
 colors = plt.cm.Greens(df['Accuracy_Improvement (%)'] / df['Accuracy_Improvement (%)'].max())
 
 bars = ax.bar(x, df['Accuracy_Improvement (%)'], color=colors)
@@ -68,11 +68,11 @@ for i, v in enumerate(df['Accuracy_Improvement (%)']):
 
 ax.grid(True, axis='y')
 plt.tight_layout()
-# plt.savefig("../Result Pictures/RQ1-1.pdf", format="pdf")  # Save as vector PDF
+plt.savefig("../evaluation_outputs/RQ1-1.pdf", format="pdf")  # Save as vector PDF
 plt.show()
 # -------------------- PLOT 2: Reversed Stacked Score Breakdown --------------------
 
-fig, ax = plt.subplots(figsize=(14, 8))
+fig, ax = plt.subplots(figsize=(14, 6))
 width2 = 0.45  # up from 0.35
 
 # No Graph bars (bottom = correct answers, top = wrong answers)
@@ -112,5 +112,5 @@ ax.set_xticklabels(labels, rotation=45)
 ax.legend(title='Score and Condition', loc='upper left', bbox_to_anchor=(1, 1))
 ax.grid(True, axis='y')
 plt.tight_layout()
-# plt.savefig("../Result Pictures/RQ1-2.pdf", format="pdf")  # Save as vector PDF
+# plt.savefig("../evaluation_outputs/RQ1-2.pdf", format="pdf")  # Save as vector PDF
 plt.show()

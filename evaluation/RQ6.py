@@ -13,7 +13,7 @@ df = pd.DataFrame(data)
 df['Accuracy (%)'] = (df['Count_0.5'] * 0.5 + df['Count_1']) / 300 * 100
 
 # Line chart with y-axis starting at 60%
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(8, 4))
 x = np.arange(len(df))
 locations = df['Location'].tolist()
 accuracy = df['Accuracy (%)'].to_numpy()
@@ -35,5 +35,5 @@ ax.set_title('TAAF Accuracy at Different Temporal Locations\n(60–100% scale)')
 ax.grid(True, axis='y')
 
 plt.tight_layout()
-# plt.savefig("../Result Pictures/RQ6.pdf", format="pdf")  # Save as vector PDF
+plt.savefig("../evaluation_outputs/RQ6.pdf", format="pdf")  # Save as vector PDF
 plt.show()

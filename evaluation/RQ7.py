@@ -92,5 +92,5 @@ for i, T in enumerate(temps):
     ax.text(T, b2 + p1[i]/2,   f"{p1[i]:.2f}%",   ha='center', va='center', fontsize=8)
 
 plt.tight_layout()
-# plt.savefig("../Result Pictures/RQ7-2.pdf", format="pdf")
+# plt.savefig("../evaluation_outputs/RQ7-2.pdf", format="pdf")
 plt.show()

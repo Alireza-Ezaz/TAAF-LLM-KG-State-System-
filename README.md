@@ -19,51 +19,67 @@ This replication package shows how to reproduce every step of the TAAF workflow:
 ## Folder layout
 
 ```text
-taaf-replication-package/
+TAAF-LLM-KG-State-System-/
 ├── raw_trace_data/                 # ✱ IMPORT THIS into Trace Compass
 │   └── scimark2-all-events-run0/   #   Original LTTng CTF directory
-│       └── …                       #   (replace with your own trace if desired)
+│       └── kernel/
+│           └── ...
 │
 ├── trace_data/                     # Quick-peek CSV dump of the same run
 │   └── run0_0.csv                  # Human-readable event data
 │
 ├── ease_scripts/                   # Trace Compass State System query scripts
-│   ├── script_examples/            # Tiny demos that show how to probe the
-│   │   └── *.js                    #   State System, quarks, attributes …
 │   └── query2d.js                  # ★ Main EASE script — picks a time window
 │                                   #   & writes thread/CPU intervals to stdout
 │
 ├── cpu_usage/
-│   ├── state_system_data/          # Output of query2d.js for our study
-│   │   ├── mid_1s.txt              # State intervals (1s window) from mid trace
-│   │   ├── mid_10s.txt             # State intervals (10s window) from mid trace
-│   │   ├── mid_100s.txt            # State intervals (100s window) from mid trace
-│   │   ├── start_10s.txt           # State intervals (10s window) from the start of trace
-│   │   └── end_10s.txt             # State intervals (10s window) from the end of trace
-│   ├── knowledge_graph_data/       # KGs produced from the *.txt slices
-│   │   ├── mid_1s.json
-│   │   ├── mid_10s.json
-│   │   ├── mid_100s.json
-│   │   ├── start_10s.json
-│   │   └── end_10s.json
+│   ├── mid_1s.txt                  # State intervals (1s window) from mid trace
+│   ├── mid_10s.txt                 # State intervals (10s window) from mid trace
+│   ├── mid_100s.txt                # State intervals (100s window) from mid trace
+│   ├── start_10s.txt               # State intervals (10s window) from the start of trace
+│   ├── end_10s.txt                 # State intervals (10s window) from the end of trace
+│   ├── mid_1s.json                 # KG produced from mid_1s.txt
+│   ├── mid_10s.json                # KG produced from mid_10s.txt
+│   ├── mid_100s.json               # KG produced from mid_100s.txt
+│   ├── start_10s.json              # KG produced from start_10s.txt
+│   ├── end_10s.json                # KG produced from end_10s.txt
 │   ├── cpu_usage_graph_generator.py # Creates KGs from the State System slices
 │   └── graph_info_extractor.py     # Prints basic KG + TXT statistics
 │
 ├── taaf.ipynb                      # MAIN COLAB NOTEBOOK: baseline vs. full TAAF
 │
+├── taaf.py                         # Main script (if used outside Colab)
+│
+├── test.py                         # Test script
+│
 ├── evaluation/                     # Scripts that draw every figure in the paper
 │   ├── RQ1.py … RQ7.py
 │   └── …
 │
-├── evaluation_output/              # PNG/SVG results of the evaluation scripts
-│   ├── RQ1.png
+├── evaluation_outputs/             # PNG/PDF results of the evaluation scripts
+│   ├── RQ1-1.pdf
+│   ├── RQ1-1.png
 │   └── …
 │
-├── reference_answers/              # Utilities to pull “ground-truth” answers
+├── refrence_answers/               # Utilities to pull “ground-truth” answers
 │   └── …
 │
 ├── extra_documents/                # Slides, diagrams, logo, etc.
-│   └── …
+│   ├── readme_figures/
+│   │   ├── addons.png
+│   │   ├── create_project.png
+│   │   ├── import1.png
+│   │   ├── import2.png
+│   │   ├── state_system_result.png
+│   │   ├── state_system.png
+│   │   └── welcome.png
+│   ├── Evaluation Presentation.pptx
+│   ├── Evaluation.pdf
+│   ├── TAAF (LLM + KG + State System).xlsx
+│   ├── TAAF Aggregated Results.csv
+│   └── TAAF.png
+│
+├── requirements.txt                # Python dependencies
 └── README.md                       # ← you are here
 
 ```
@@ -71,7 +87,7 @@ taaf-replication-package/
 ## Prerequisites
 
 * JDK 11 or later
-* Eclipse Tracecompass
+* Eclipse Trace Compass
 * Trace Compass plug-ins (see next section)
 * Python 3.9+ with `pip install -r requirements.txt`
 * Google account for Colab
@@ -81,7 +97,7 @@ taaf-replication-package/
 
 1. **Install Trace Compass**
 
-   * Visit [https://eclipse.dev/tracecompass/](https://eclipse.dev/tracecompass/) and follow the platform-specific instructions to download Tracecompass.
+   * Visit [https://eclipse.dev/tracecompass/](https://eclipse.dev/tracecompass/) and follow the platform-specific instructions to download Trace Compass.
    * After installation Trace Compass starts with its default workspace.
    * ![Trace Compass welcome](extra_documents/readme_figures/welcome.png)
 
@@ -104,7 +120,7 @@ taaf-replication-package/
 
 4. **Import the raw trace**
 
-   * In the **TAAF** project open the *Traces \[0]* folder.
+   * In the **TAAF** project open the *Traces [0]* folder.
    * Right-click → *Import Trace*.
    * Select `raw_trace_data/scimark2-all-events-run0/kernel` then click *Finish*.
    * Trace Compass parses events and builds the State System automatically.
@@ -129,7 +145,7 @@ taaf-replication-package/
 7. **Save the console output**
 
    * Select all console text, copy it, and paste into a new file inside
-     `cpu_usage/state_system_data/`.
+     `cpu_usage/`.
    * The repository already contains five ready-made slices
      (`mid_1s.txt`, `mid_10s.txt`, `mid_100s.txt`, `start_10s.txt`, `end_10s.txt`)
      produced with this method.
@@ -154,10 +170,10 @@ Each State-System slice (`*.txt`) can be transformed into a compact, query-speci
 2. **Run the generator**
 
    ```bash
-   cd taaf-replication-package
+   cd TAAF-LLM-KG-State-System-
    python cpu_usage/cpu_usage_graph_generator.py \
-       --input  cpu_usage/state_system_data/mid_1s.txt \
-       --output cpu_usage/knowledge_graph_data/mid_1s.json
+       --input  cpu_usage/mid_1s.txt \
+       --output cpu_usage/mid_1s.json
    ```
 
    The script
@@ -171,18 +187,18 @@ Each State-System slice (`*.txt`) can be transformed into a compact, query-speci
 3. **Verify or explore the output**
 
    ```bash
-   python -m json.tool cpu_usage/knowledge_graph_data/mid_1s.json | head
+   python -m json.tool cpu_usage/mid_1s.json | head
    ```
 
    or open the file in any JSON viewer to see nodes, edges, and metrics.
 
-> **Quick start:** all five slices listed above are already processed; the corresponding JSON graphs live in `cpu_usage/knowledge_graph_data/`. Regenerate them only if you change the window or trace.
+> **Quick start:** all five slices listed above are already processed; the corresponding JSON graphs live in `cpu_usage/`. Regenerate them only if you change the window or trace.
 
 ---
 
 After this step you now hold **both**
-*raw State-System outputs* (`cpu_usage/state_system_data/*.txt`) **and**
-*their Knowledge Graphs* (`cpu_usage/knowledge_graph_data/*.json`).
+*raw State-System outputs* (`cpu_usage/*.txt`) **and**
+*their Knowledge Graphs* (`cpu_usage/*.json`).
 
 These pairs enable the next phase, where we evaluate the **baseline** configuration (LLM + State System) against the full **TAAF** stack (LLM + State System + KG) by asking trace-related questions and comparing the answers.
 
@@ -215,8 +231,8 @@ These pairs enable the next phase, where we evaluate the **baseline** configurat
    At the top of the notebook adjust these paths:
 
    ```python
-   RAW_PATH = "cpu_usage/state_system_data/mid_10s.txt"
-   KG_PATH  = "cpu_usage/knowledge_graph_data/mid_10s.json"
+   RAW_PATH = "cpu_usage/mid_10s.txt"
+   KG_PATH  = "cpu_usage/mid_10s.json"
    ```
 
    All five pre-computed slices (`mid_1s`, `mid_10s`, `mid_100s`, `start_10s`, `end_10s`) live under those folders.
@@ -261,3 +277,18 @@ You’re all set—compare **baseline** vs. **TAAF** answers, swap slices or mod
 [9]: https://colab.research.google.com/github/langfuse/langfuse-docs/blob/main/cookbook/integration_openai_sdk.ipynb?utm_source=chatgpt.com "Cookbook: OpenAI Integration (Python) - Colab"
 [10]: https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/blob/master/DEVELOPMENT_ENV_SETUP.md?utm_source=chatgpt.com "org.eclipse.tracecompass/DEVELOPMENT_ENV_SETUP.md at ..."
 [11]: https://stackoverflow.com/questions/25428538/install-trace-compass-eclipse-plugin?utm_source=chatgpt.com "Install Trace compass Eclipse plugin - Stack Overflow"
+
+## Evaluation Benchmark: TraceQA-100
+
+Despite progress in using AI and LLMs for trace analysis, the community has lacked a public, ground-truth dataset for reasoning over kernel-level execution traces. Existing LLM benchmarks such as MMLU or Big-Bench do not address the unique challenges of trace analysis, including fine-grained time, multi-entity interactions, and numeric aggregation. To fill this gap, we introduce **TraceQA-100**, a curated benchmark designed to exercise all three dimensions.
+
+**Trace provenance and slicing:**
+TraceQA-100 uses LTTng traces of the SciMark 2.0 Java benchmark, which generates approximately 34 million kernel events. From each run, we extract 1s, 10s, and 100s slices around three canonical temporal locations (start, mid, and end), yielding a pool of trace segments that serve as the factual basis for question construction.
+
+**Question authorship:**
+Questions were generated through a four-step, double-blind process. Two experts independently inspected trace slices and drafted questions requiring time-aware, multi-entity reasoning. Drafts were peer-reviewed and normalized into three answer formats: explanatory, multiple-choice, or true/false. A third expert, blind to the drafts, produced reference answers using hand-written Trace Compass scripts; disagreements were resolved through adjudication. Each question was then tagged as single-hub or multi-hub based on the reasoning scope.
+
+The resulting set includes an even 40/30/30 split across the three answer types and a 50/50 split across hub scopes. Since each prompt is instantiated on nine distinct trace slices (3 temporal locations × 3 time-window lengths), the benchmark comprises 100 × 9 = 900 unique question–trace-segment pairs.
+
+**Access:**
+TraceQA-100, our benchmark for evaluation, is available anonymously at: [https://docs.google.com/spreadsheets/d/1s6DatBkugvsSXXeXwTJJBZxHd9PoTfok0t3vWm0_OMw/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1s6DatBkugvsSXXeXwTJJBZxHd9PoTfok0t3vWm0_OMw/edit?usp=sharing)

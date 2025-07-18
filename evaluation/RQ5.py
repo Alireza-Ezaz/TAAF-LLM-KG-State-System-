@@ -46,7 +46,7 @@ heat_yes  = agg.pivot(index='Question Category Type',
 # -------------------------------------------------
 # 4) Plot the two heatmaps side-by-side
 # -------------------------------------------------
-fig, axes = plt.subplots(1, 2, figsize=(14, 6), sharey=True)
+fig, axes = plt.subplots(1, 2, figsize=(14, 4.2), sharey=True)
 
 # Heatmap: WITHOUT KG
 sns.heatmap(
@@ -71,5 +71,5 @@ axes[1].set_xlabel("Graph Question Type")
 axes[1].set_ylabel("User Question Type")
 
 plt.tight_layout()
-# plt.savefig("../Result Pictures/RQ5-1.pdf", format="pdf")  # Save as vector PDF
+plt.savefig("../evaluation_outputs/RQ5-1.pdf", format="pdf")  # Save as vector PDF
 plt.show()
